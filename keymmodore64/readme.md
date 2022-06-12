@@ -13,7 +13,9 @@ Depending on which keymap you would like to use, you will have to compile slight
 
 ### Default
 
-To build with the default keymap, simply run `make default`.
+To build with the default keymap, simply run 
+	`make default` or 
+	`qmk compile -kb keymmodore64 -km default`
 
 ### Other Keymaps
 

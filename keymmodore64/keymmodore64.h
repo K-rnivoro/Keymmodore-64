@@ -41,34 +41,59 @@ Option TX and RX LEDs of Leonardo and ProMicro boards:
   - Any Emulator Mode: Rx Off, Tx On.
 */
 
-#define green_led B6
-#define red_led B5
-#define blue_led B4
- 
+// Pins in same order as in a tipical RGB Led
+#define red_led     A0
+#define common_led  A1  // Common Cathode or Anode 
+#define green_led   A2
+#define blue_led    A3
+
+// Comment or uncomment one of these defines, accordingly with the type of LED being used 
+#define LED_COMMON_CATHODE
+//#define LED_COMMON_ANODE
+
+#if defined(LED_COMMON_ANODE)
+#define setPinCommon( led )   writePinHigh( led )  
+#define setLedOn( led )       writePinLow( led )
+#define setLedOff( led )      writePinHigh( led )
+#endif
+
+#if defined(LED_COMMON_CATHODE)
+#define setPinCommon( led )   writePinLow( led )
+#define setLedOn( led )       writePinHigh( led )
+#define setLedOff( led )      writePinLow( led )
+#endif
+
+#define bmc64_p0    B4  // RPI GPIO 26
+#define bmc64_p1    B5  // RPI GPIO 20
+#define bmc64_p2    B6  // RPI GPIO 21
+
+// PImmodore keyboard modes
+#define BMC64_PIMMODORE_MODE_PC   0
+#define BMC64_PIMMODORE_MODE_C64  1
+#define BMC64_PIMMODORE_MODE_C128 2
+#define BMC64_PIMMODORE_MODE_PETB 3
+#define BMC64_PIMMODORE_MODE_PETG 4
+
 
 #define LAYOUT( \
-    K00, K01, K02, K03, K04, K05, K06, K07,                                                             \
-    K10, K11, K12, K13, K14, K15, K16, K17,                                                             \
-    K20, K21, K22, K23, K24, K25, K26, K27,                                                             \
-    K30, K31, K32, K33, K34, K35, K36, K37,                                                             \
-    K40, K41, K42, K43, K44, K45, K46, K47,                                                             \
-    K50, K51, K52, K53, K54, K55, K56, K57,                                                             \
-    K60, K61, K62, K63, K64, K65, K66, K67,                                                             \
-    K70, K71, K72, K73, K74, K75, K76, K77,                                                             \
-                                            K80,                                                        \
-												 K90, K91, K92, K93, K94,                               \
-                                                                          KA0, KA1, KA2, KA3, KA4       \
+  K_LARR, K_1, K_2, K_3, K_4, K_5, K_6, K_7, K_8, K_9, K_0, K_PLUS, K_MINS, K_BSLS, K_HOME, K_DEL,      K_F1,   K_P7, K_P8, K_P9,       \
+  K_CTRL, K_Q, K_W, K_E, K_R, K_T, K_Y, K_U, K_I, K_O, K_P, K_AT, K_ASTR, K_UP, K_RSTR,                 K_F3,   K_P4, K_P5, K_P6,       \
+  K_RSTOP, K_A, K_S, K_D, K_F, K_G, K_H, K_J, K_K, K_L, K_COLON, K_SCLN, K_EQL, K_RTRN,                 K_F5,   K_P1, K_P2, K_P3,       \
+  K_CKEY, K_LSHFT, K_Z, K_X, K_C, K_V, K_B, K_N, K_M, K_COMM, K_DOT, K_SLSH, K_RSHFT, K_DOWN, K_RGHT,   K_F7,         K_P0, K_PDOT,     \
+                                       K_SPACE                                                                                          \
 ) { \
-    { K00,   K01,   K02,   K03,   K04,   K05,   K06,   K07,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K10,   K11,   K12,   K13,   K14,   K15,   K16,   K17,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K20,   K21,   K22,   K23,   K24,   K25,   K26,   K27,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K30,   K31,   K32,   K33,   K34,   K35,   K36,   K37,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K40,   K41,   K42,   K43,   K44,   K45,   K46,   K47,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K50,   K51,   K52,   K53,   K54,   K55,   K56,   K57,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K60,   K61,   K62,   K63,   K64,   K65,   K66,   K67,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { K70,   K71,   K72,   K73,   K74,   K75,   K76,   K77,   KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-    { KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, K80,   KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-	{ KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, K90,   K91,   K92,    K93,   K94,    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, },   \
-	{ KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  KA0,   KA1,   KA2,   KA3,   KA4,   }    \
+    { K_1,    K_LARR,   K_CTRL, K_RSTOP,K_SPACE,K_CKEY, K_Q,    K_2,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_3,    K_W,      K_A,    K_LSHFT,K_Z,    K_S,    K_E,    K_4,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_5,    K_R,      K_D,    K_X,    K_C,    K_F,    K_T,    K_6,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_7,    K_Y,      K_G,    K_V,    K_B,    K_H,    K_U,    K_8,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_9,    K_I,      K_J,    K_N,    K_M,    K_K,    K_O,    K_0,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_PLUS, K_P,      K_L,    K_COMM, K_DOT,  K_COLON,K_AT,   K_MINS, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_BSLS, K_ASTR,   K_SCLN, K_SLSH, K_RSHFT,K_EQL,  K_UP,   K_HOME, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { K_DEL,  K_RTRN,   K_RGHT, K_DOWN, K_F1,   K_F3,   K_F5,   K_F7,   KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { KC_NO,  KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  K_RSTR, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { KC_NO,  KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  K_P0,   K_P8,   K_P2,   K_P4,   K_P6,   KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO, },   \
+    { KC_NO,  KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  K_PDOT, K_P7,   K_P3,   K_P1,   K_P9,  }    \
 }
+
+
 #endif
