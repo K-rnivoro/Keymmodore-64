@@ -165,13 +165,46 @@ As mentioned, every symbol have it's own key. In order to access those keys, the
 
 Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. 
 
-Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which is almost exactly the layout of the C-64 keyboard.
+Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ea104305-b933-44f2-ba22-5faf6afe4fc4" />
 
 
 Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
+
+
+## Commodore PET Business Keyboard Compatible Mode.
+
+This second mode allows to emulate the so called «Business» keyboard (the one with upper and lower case letters) used by the later Commodore PET Series Computer. This keyboard has some particular symbolic only keys like Brackets ([ ]), minus and equal (- =), asterisk and colon (: *). It's weird like the Graphics keyboard, but not that weird.
+
+<img width="1024" height="287" alt="image" src="https://github.com/user-attachments/assets/148a0fb9-7d53-4e0f-9466-30efb323b4fb" />
+
+Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position. 
+
+You can see the differences in the following diagram:
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f2023e57-2a4e-4a6a-b023-f4467634eecd" />
+
+
+- CTRL key works as TAB.
+- £ (Pound) key works as \ (backslash).
+- RESTORE key works as second INST/DEL.
+- F1 key works as ESC.
+- F3 key works as OFF/RVS.
+- F5 key works as REPEAT.
+- F7 key have no function.
+
+ACCESS TO NUMERIC PAD AND BRACKET KEYS
+
+Keymmodore-64 implements a special layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/9ff61c5f-01b7-4932-9020-95c53a9c24f8" />
+
+As usual, C= and CONTROL keys switch back to PC Compatible Mode.
+
+
+
 
 
 
