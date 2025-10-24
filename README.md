@@ -38,13 +38,13 @@ In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the or
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/acb42d1a-71bf-4544-9131-2dcf0950dc6b" />
 
 ### EXCLUSIVE C-64 KEYS:
-- RUN/STOP turns to Left ALT.
-- RESTORE turns to BACKSPACE
-- ← (Left Arrow) turns to ESCAPE, or ~  (diacritic) if SHIFT is held.
-- £ turns to \ (inverted slash), o | (pipe) if SHIFT is held.
-- 0 key is also ^ (circumflex accent) if SHIFT is held.
+- RUN/STOP works as Left ALT.
+- RESTORE works as BACKSPACE
+- ← (Left Arrow) works as ESCAPE, or ~  (diacritic) if SHIFT is held.
+- £ works as \ (inverted slash), o | (pipe) if SHIFT is held.
+- 0 key works as ^ (circumflex accent) when SHIFT is held.
 - ↑ (Up Arrow) moves the cursor up.
-- – (Minus) is also _ (underscore) if SHIFT is held.
+- – (Minus) works as _ (underscore) when SHIFT is held.
 - Cursor keys (↑/↓) y (←/→) will work down (↓) and right (→) unless right SHIFT is being pressed as described below.
 - @ (At), * (Asterisk), = (Equal) and + (Plus) will work as such, regardless SHIFT being held or not.
 
