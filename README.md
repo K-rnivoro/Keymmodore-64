@@ -1,5 +1,5 @@
 # Keymmodore-64
-## An interfase for converting a Commodore-64 Keyboard to USB, 100% compatible with PC/Linux/Android.
+## An interfase for converting a Commodore-64 Keyboard to USB, making it compatible with PC/Linux/Android.
 
 The Keymmodore-64 project is an interfase to convert keyboards and joysticks of Commodore computers in a USB device able to be connected to any Operative System with USB HID (Human Interfase Device) compatibility, like: PC (Windows/Linux), Raspberry Pi, Mac,  and even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to key strokes too.
 
