@@ -165,9 +165,9 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 ### ACCESS TO SYMBOL KEYS AND PETSCII GRAPHICS
 
-As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want. Also works for the π symbol.
+As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want. .
 
-Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. 
+Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
 Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
