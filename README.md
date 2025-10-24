@@ -58,7 +58,7 @@ This is maybe one of the coolest feature of QMK Firmware. Due to the fact that t
 
 The Left SHIFT works like any standard PC Keyboard, allowing access to capital letters and additional characters as usual. The SHIFT LOCK key is actually wired to the Left SHIFT, but with a mechanical lock so it is not the same than a real CAPS LOCK, affecting also the 0 a 9 keys.
 
-RIGHT SHIFT AS FUNCTION “Fn2” Key.
+### RIGHT SHIFT AS FUNCTION “Fn2” Key.
 
 The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
 
