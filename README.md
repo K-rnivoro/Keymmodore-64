@@ -58,16 +58,6 @@ This is maybe one of the coolest feature of QMK Firmware. Due to the fact that t
 
 The Left SHIFT works like any standard PC Keyboard, allowing access to capital letters and additional characters as usual. The SHIFT LOCK key is actually wired to the Left SHIFT, but with a mechanical lock so it is not the same than a real CAPS LOCK, affecting also the 0 a 9 keys.
 
-### RIGHT SHIFT AS FUNCTION “Fn2” Key.
-
-The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
-
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f63dd00c-08ce-4ba8-8270-5038941cd58d" />
-
-Pressing RIGHT SHIFT:
-- ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
-- The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
-
 
 ### COMMODORE (C=) key as FUNCTION “Fn” key.
 
@@ -106,6 +96,16 @@ Also, F1 to F7 keys switch to different Modes or keyboards layouts, depending wh
 If you wired the RGB LED it will show you which is the active mode. The color code of the LED is described later.
 
 To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.
+
+### RIGHT SHIFT AS FUNCTION “Fn2” Key.
+
+The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f63dd00c-08ce-4ba8-8270-5038941cd58d" />
+
+Pressing RIGHT SHIFT:
+- ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
+- The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
 ## Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 
