@@ -39,12 +39,15 @@ EXCLUSIVE C-64 KEYS:
 - @ (At), * (Asterisk), = (Equal) and + (Plus) will work as such, regardless SHIFT being held or not.
 
 LEFT CONTROL and TAB in one key.
+
 This is maybe one of the coolest feature of QMK Firmware. Due to the fact that the CONTROL key is located ijn the same place than TAB in a regular PC Keyboard, Keymmodore-64 implements a dual role fot this key. If you tap it (meaning press and release without pressing another key) it will work as a TAB; however if you press and hold, and press another key, it will work as a CONTROL allowing the combination with other keys, like CTRL+C, CTRL+V, etc. Cool uh?
 
-LEFT SHIFT AND SHIFT LOCK
+LEFT SHIFT AND SHIFT LOCK.
+
 The Left SHIFT works like any standard PC Keyboard, allowing access to capital letters and additional characters as usual. The SHIFT LOCK key is actually wired to the Left SHIFT, but with a mechanical lock so it is not the same than a real CAPS LOCK, affecting also the 0 a 9 keys.
 
 RIGHT SHIFT AS FUNCTION “Fn2” Key.
+
 The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f63dd00c-08ce-4ba8-8270-5038941cd58d" />
@@ -53,7 +56,7 @@ Pressing RIGHT SHIFT:
 - ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
 - The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
-COMMODORE (C=) key as FUNCTION “Fn” key
+COMMODORE (C=) key as FUNCTION “Fn” key.
 The key with  the C= symbol on it, generally called «Commodore Key», works also a Modification key allowing to access to a different layers and function like a “60%” Style Keyboards.
 
 In the following diagram you can see in white which keys will change its function when Fn  (C=) is pressed. Some functions are already in the legends of the keys, and others are added to better productivity.
