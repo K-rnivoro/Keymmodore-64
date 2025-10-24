@@ -17,11 +17,66 @@ This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pic
 
 <img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/6ad6fff9-a5b4-494b-8b81-050176261a98" />
 
-If you want to add the Atari-like joysticks, as mentioned, you will need to add some wiring in parallel in order to add the missing crosspoints to the matrix. 
+If you want to add the Atari-like joysticks, as mentioned, you will need to add some wiring in parallel in order to add the missing crosspoints to the matrix. And just in case, joysticks pinout is also shown.
 
 <img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" /> <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
-Just in case, this is the joysticks pinout.
+# PC Compatible Mode
+
+In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (Fn y Fn2) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/acb42d1a-71bf-4544-9131-2dcf0950dc6b" />
+
+EXCLUSIVE C-64 KEYS:
+- RUN/STOP turns to Left ALT.
+- RESTORE turns to BACKSPACE
+- ← (Left Arrow) turns to ESCAPE, or ~  (diacritic) if SHIFT is held.
+- £ turns to \ (inverted slash), o | (pipe) if SHIFT is held.
+- 0 key is also ^ (circumflex accent) if SHIFT is held.
+- ↑ (Up Arrow) moves the cursor up.
+- – (Minus) is also _ (underscore) if SHIFT is held.
+- Cursor keys (↑/↓) y (←/→) will work down (↓) and right (→) unless right SHIFT is being pressed as described below.
+- @ (At), * (Asterisk), = (Equal) and + (Plus) will work as such, regardless SHIFT being held or not.
+
+LEFT CONTROL and TAB in one key.
+This is maybe one of the coolest feature of QMK Firmware. Due to the fact that the CONTROL key is located ijn the same place than TAB in a regular PC Keyboard, Keymmodore-64 implements a dual role fot this key. If you tap it (meaning press and release without pressing another key) it will work as a TAB; however if you press and hold, and press another key, it will work as a CONTROL allowing the combination with other keys, like CTRL+C, CTRL+V, etc. Cool uh?
+
+LEFT SHIFT AND SHIFT LOCK
+The Left SHIFT works like any standard PC Keyboard, allowing access to capital letters and additional characters as usual. The SHIFT LOCK key is actually wired to the Left SHIFT, but with a mechanical lock so it is not the same than a real CAPS LOCK, affecting also the 0 a 9 keys.
+
+RIGHT SHIFT AS FUNCTION “Fn2” Key.
+The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f63dd00c-08ce-4ba8-8270-5038941cd58d" />
+
+Pressing RIGHT SHIFT:
+- ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
+- The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
+
+COMMODORE (C=) key as FUNCTION “Fn” key
+The key with  the C= symbol on it, generally called «Commodore Key», works also a Modification key allowing to access to a different layers and function like a “60%” Style Keyboards.
+
+In the following diagram you can see in white which keys will change its function when Fn  (C=) is pressed. Some functions are already in the legends of the keys, and others are added to better productivity.
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/102fc4d9-a8c2-44eb-8ace-db79c0e66528" />
+
+So, pressing Commodore key:
+
+- 1 to 0 keys, as well as + y – will work as F1 to F12
+- HOME key works as END
+- INST/DEL key works as INSERT as the top legend.
+- ↑ and RESTORE keys works as PAGE UP y PAGE DOWN respectively.
+- ↓ and → cursor keys work up (↑) and left (←) respectively, as the top legend described.
+- Q and E, as well as U and O keys, work as PAGE UP and PAGE DOWN respectively.
+- WASD and IJKL work as directional cursor  ↑ ←↓ → respectively.
+- ← key work as ` (grave tilde), and ~ (diacritic).
+- : (colon) and ; (semicolon) work as { and } (brackets) respectively.
+- P key works as PRINT SCREEN.
+- @ (at) key works enabling and disabling SCROLL LOCK.
+- * (asterisk) key works enabling and disabling NUM LOCK  (very important for joysticks). 
+- < (less than) y > (greater than) decrease and increase audio volume respectively (*).
+- / (slash) mutes the audio output (*).
+- C fires the Calculator (if supported by the Operative System).
 
 
 
