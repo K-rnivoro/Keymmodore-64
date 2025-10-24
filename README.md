@@ -9,4 +9,12 @@ Besides the standard "PC Mode" describes above, Keymmodore-64 also includes four
 
 Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful QMK Firmware, so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
-<img width="751" height="630" alt="image" src="https://github.com/user-attachments/assets/52cdf37b-18df-4aee-b919-3492ddfc1241" />
+The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. However if you want to add Atari-like joysticks to your project, you need to add some wiring in between the keyboard connector and the Pico. As you can see in the matrix diagram below, P1 and P2 use the "I" file and the "8" row of the RESTORE key. Remember, THIS IS OPTIONAL (just because there are some free crosspoints). If your are not interested on those old joysticks, or you plan to use a Raspberry (like a Pimmodore-64), you do not need to add this extra complexity.
+
+<img width="743" height="724" alt="image" src="https://github.com/user-attachments/assets/58894706-c022-432d-809c-ac3544666e7c" />
+
+Just in case you want to connect the joysticks, remember the correct wiring:
+
+<img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
+
+
