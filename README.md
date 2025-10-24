@@ -1,13 +1,13 @@
 # Keymmodore-64
-# An interfase for converting a Commodore-64 Keyboard to USB, 100% compatible with PC/Linux/Android.
+## An interfase for converting a Commodore-64 Keyboard to USB, 100% compatible with PC/Linux/Android.
 
 The Keymmodore-64 project is an interfase to convert keyboards and joysticks of Commodore computers in a USB device able to be connected to any Operative System with USB HID (Human Interfase Device) compatibility, like: PC (Windows/Linux), Raspberry Pi, Mac,  and even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to key strokes too.
 
 In order to make a C-64 keyboard productive, Keymmodore-64 includes a lot of useful combinations of keystrokes, using keys as Function keys (like the Commodore key). This way, your C-64 Keyboard includes almost all keys you need for your everyday work.
 
-Besides the standard "PC Mode" describes above, Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like VICE or BMC64. Using these modes, you can easily use your C-64 keyboard not even emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards.
+Besides the standard "PC Mode" describes above, Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or [BMC64](https://accentual.com/bmc64/). Using these modes, you can easily use your C-64 keyboard not even emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards.
 
-Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful QMK Firmware, so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
+Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful [QMK Firmware](https://qmk.fm/), so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
 The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. However if you want to add Atari-like joysticks to your project, you need to add some wiring in between the keyboard connector and the Pico. As you can see in the matrix diagram below, P1 and P2 use the "I" file and the "8" row of the RESTORE key. Remember, THIS IS OPTIONAL (just because there are some free crosspoints). If your are not interested in those old joysticks, or you plan to use a Raspberry (like a Pimmodore-64), you do not need to add this extra complexity.
 
@@ -21,7 +21,15 @@ If you want to add the Atari-like joysticks, as mentioned, you will need to add 
 
 <img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" /> <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
-# PC Compatible Mode
+
+## A very important Note
+
+In order to Keymmodore-64 to work correctly, you need two things:
+
+- Set your Operative System Keyboard layout to "US" or "US International". Do not use any other layout. "UK",  "Spanish" or any other regional layout won't work properly.
+- Download and use the .vkm files for your emulator. Set them as "User Positional". This make Emulation Modes work correctly with the Emulators. The default .vkm files do not work (being symbolic or positional).
+
+## PC Compatible Mode
 
 In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (Fn y Fn2) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
 
@@ -87,13 +95,93 @@ So, pressing Commodore key:
 
 Also, as explained below, F1 to F7 keys switch to different Modes or keyboards layouts, depending what computer you want to emulate (using an emulator): 
 
-- F1: C-64, VIC-20 or Plus/4 Mode.
-- F3: Commodore-128 Mode.
-- F5: PET Graphics Keyboard Mode.
-- C= + F5 (already in PET Graphics Mode): PET Business Keyboard Mode.
+- F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
+- F3: Commodore-128 Compatible Mode.
+- F5: PET Graphics Keyboard Compatible Mode.
+- C= + F5 (already in PET Graphics Mode): PET Business Keyboard Compatible Mode.
 - CONTROL: Back to PC Compatible Mode.
 
 To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.
+
+## Commodore-64, VIC-20 and Plus/4 Compatible Mode.
+
+As explained before, pressing C= Key and F1, the interfase switches to this compatible Mode. Depending the computer being emulated in the emulator (and the right .vkm files), you will have the following layouts:
+
+COMMODORE-64 AND VIC-20
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/03dd081a-8797-4447-872e-f3c166db8175" />
+
+In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. Remember to press C= and CONTROL to go back to PC Compatible Mode when you exit your emulator.
+
+COMMODORE PLUS/4 or COMMODORE-16 (or any other C-264 Model)
+
+Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the location of some keys keeping the original C-64 layout as much as possible.
+
+<img width="1024" height="282" alt="image" src="https://github.com/user-attachments/assets/db3d46e8-c04e-4814-a5d5-446a60784d44" />
+
+As you can see, location of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
+
+The changes are:
+
+- The original C-64 cursor keys work as ↓ (Down) and → (Right). SHIFT won’t invert the direccion of these two as it does in the C-64.
+- ↑ (Arrow Up) and RESTORE work as ↑ (Up) and ← (Left) respectively.
+- F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
+
+Remember to press C= and CONTROL keys to switch back to PC Compatible Mode.
+
+## Commodore-128 Compatible Mode.
+
+Due to having more keys than a C-64 keyboard, the RIGHT SHIFT is implemented as a FUNCTION or Modifier Key, allowing to to access to the propietary keys of the C-128 which are mapped on the C-64 keyboard in this way:
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ca4b3700-139b-4932-b9c7-5f5940c27530" />
+
+So, pressing RIGHT SHIFT and the 1/! key, will result in a "1" instead of a "!", because it corresponds to the Key 1 of the Numerical Pad, not the regular 1 Key.
+
+Remember to press C= and CONTROL keys to switch back to PC Compatible Mode.
+
+## Commodore PET Graphics Keyboard Compatible Mode.
+
+Commodore PET has two different keyboards layout, so both need to be emulated separately.
+
+The first mode allows to emulate the so called «Graphics» keyboards, the one with PETSCII graphics used by the early Commodore PET Series Computer. This Graphics keyboard has an odd layout where every symbol has their own key, and also there is just one PETSCII graphics per key instead of two as found in C-64 Keyboard.
+Look how weird it is:
+
+<img width="1000" height="294" alt="image" src="https://github.com/user-attachments/assets/508a0dce-3a4c-4385-b2e6-906934558163" />
+
+In this Mode, the layout of your C-64 keyboard will be the following:
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/b986ce41-3792-4ebf-a542-d8037283bc3e" />
+
+
+- CTRL key works as OFF/RVS.
+- £ (pound) key works a \ (backslash).
+- RESTORE key works as second INST/DEL.
+- C= does not exist in PET Graphics Keyboard, however we will use it to access PETSCII graphics set as explained below.
+- Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, therefore they have no function. 
+
+ACCESS TO SYMBOL KEYS AND PETSCII GRAPHICS
+
+As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, just press C= and the key with the symbol you want.
+
+Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. 
+
+Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which is almost exactly the layout of the C-64 keyboard.
+
+
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ea104305-b933-44f2-ba22-5faf6afe4fc4" />
+
+
+Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
+
+
+
+
+
+
+
+
+
+
 
 
 
