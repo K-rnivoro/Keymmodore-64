@@ -35,7 +35,7 @@ In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the or
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/acb42d1a-71bf-4544-9131-2dcf0950dc6b" />
 
-EXCLUSIVE C-64 KEYS:
+### EXCLUSIVE C-64 KEYS:
 - RUN/STOP turns to Left ALT.
 - RESTORE turns to BACKSPACE
 - ← (Left Arrow) turns to ESCAPE, or ~  (diacritic) if SHIFT is held.
@@ -47,12 +47,12 @@ EXCLUSIVE C-64 KEYS:
 - @ (At), * (Asterisk), = (Equal) and + (Plus) will work as such, regardless SHIFT being held or not.
 
 
-LEFT CONTROL and TAB in one key.
+### LEFT CONTROL and TAB in one key.
 
 This is maybe one of the coolest feature of QMK Firmware. Due to the fact that the CONTROL key is located ijn the same place than TAB in a regular PC Keyboard, Keymmodore-64 implements a dual role fot this key. If you tap it (meaning press and release without pressing another key) it will work as a TAB; however if you press and hold, and press another key, it will work as a CONTROL allowing the combination with other keys, like CTRL+C, CTRL+V, etc. Cool uh?
 
 
-LEFT SHIFT AND SHIFT LOCK.
+### LEFT SHIFT AND SHIFT LOCK.
 
 The Left SHIFT works like any standard PC Keyboard, allowing access to capital letters and additional characters as usual. The SHIFT LOCK key is actually wired to the Left SHIFT, but with a mechanical lock so it is not the same than a real CAPS LOCK, affecting also the 0 a 9 keys.
 
@@ -67,7 +67,7 @@ Pressing RIGHT SHIFT:
 - The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
 
-COMMODORE (C=) key as FUNCTION “Fn” key.
+### COMMODORE (C=) key as FUNCTION “Fn” key.
 
 The key with  the C= symbol on it, generally called «Commodore Key», works also a Modification key allowing to access to a different layers and function like a “60%” Style Keyboards.
 
@@ -109,13 +109,13 @@ To avoid any confussion, it is not possible to switch between two Emulator Modes
 
 As explained before, pressing C= Key and F1, the interfase switches to this compatible Mode. Depending the computer being emulated in the emulator (and the right .vkm files), you will have the following layouts:
 
-COMMODORE-64 AND VIC-20
+### COMMODORE-64 AND VIC-20
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/03dd081a-8797-4447-872e-f3c166db8175" />
 
 In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. Remember to press C= and CONTROL to go back to PC Compatible Mode when you exit your emulator.
 
-COMMODORE PLUS/4 or COMMODORE-16 (or any other C-264 Model)
+### COMMODORE PLUS/4 or COMMODORE-16 (or any other C-264 Model)
 
 Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the location of some keys keeping the original C-64 layout as much as possible.
 
@@ -161,7 +161,7 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 - C= does not exist in PET Graphics Keyboard, however we will use it to access PETSCII graphics set as explained below.
 - Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, therefore they have no function. 
 
-ACCESS TO SYMBOL KEYS AND PETSCII GRAPHICS
+### ACCESS TO SYMBOL KEYS AND PETSCII GRAPHICS
 
 As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, just press C= and the key with the symbol you want.
 
@@ -197,7 +197,7 @@ You can see the differences in the following diagram:
 - F5 key works as REPEAT.
 - F7 key have no function.
 
-ACCESS TO NUMERIC PAD AND BRACKET KEYS
+### ACCESS TO NUMERIC PAD AND BRACKET KEYS
 
 Keymmodore-64 implements a special layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
 
@@ -205,7 +205,7 @@ Keymmodore-64 implements a special layer with the C= key for those special keys.
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
-##RGB LED COLOR CODE
+## RGB LED Color code
 
 - PC Compatible Mode: GREEN
 - Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
