@@ -205,7 +205,7 @@ Keymmodore-64 implements a special layer with the C= key for those special keys.
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
-RGB LED COLOR CODE
+##RGB LED COLOR CODE
 
 - PC Compatible Mode: GREEN
 - Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
