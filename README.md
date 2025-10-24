@@ -49,7 +49,7 @@ In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the or
 
 ### LEFT CONTROL and TAB in one key.
 
-This is maybe one of the coolest feature of QMK Firmware. Due to the fact that the CONTROL key is located ijn the same place than TAB in a regular PC Keyboard, Keymmodore-64 implements a dual role fot this key. If you tap it (meaning press and release without pressing another key) it will work as a TAB; however if you press and hold, and press another key, it will work as a CONTROL allowing the combination with other keys, like CTRL+C, CTRL+V, etc. Cool uh?
+This is maybe one of the coolest feature of QMK Firmware. Due to the fact that the CONTROL key is located in the same place than TAB in a regular PC Keyboard, Keymmodore-64 implements a dual role fot this key. If you tap it (meaning press and release without pressing another key) it will work as a TAB; however if you press and hold, and press another key, it will work as a CONTROL allowing the combination with other keys, like CTRL+C, CTRL+V, etc. Cool uh?
 
 
 ### LEFT SHIFT AND SHIFT LOCK.
