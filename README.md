@@ -85,7 +85,15 @@ So, pressing Commodore key:
 - / (slash) mutes the audio output (*).
 - C fires the Calculator (if supported by the Operative System).
 
+Also, as explained below, F1 to F7 keys switch to different Modes or keyboards layouts, depending what computer you want to emulate (using an emulator): 
 
+- F1: C-64, VIC-20 or Plus/4 Mode.
+- F3: Commodore-128 Mode.
+- F5: PET Graphics Keyboard Mode.
+- C= + F5 (already in PET Graphics Mode): PET Business Keyboard Mode.
+- CONTROL: Back to PC Compatible Mode.
+
+To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.
 
 
 
