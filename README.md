@@ -212,13 +212,8 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 - PC Compatible Mode: GREEN
 - Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
 - Commodore-128 Compatible Mode: BLUE
-<font color="blue">Este texto debería ser azul.</font>
-
-<font color="#0000FF">Este texto debería ser azul.</font>
-
 - PET Graphics Keyboard Compatible Mode: YELLOW
 - PET Business Keyboard Compatible Mode: PURPLE
-- CONTROL: Back to PC Compatible Mode.
 
 In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
 
