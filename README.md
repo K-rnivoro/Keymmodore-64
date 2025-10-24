@@ -19,11 +19,11 @@ This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pic
 
 If you want to add the Atari-like joysticks, as mentioned, you will need to add some wiring in parallel in order to add the missing crosspoints to the matrix. 
 
-<img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" />
+<img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" /> <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
 Just in case, this is the joysticks pinout.
 
-<img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
+
 
 
 
