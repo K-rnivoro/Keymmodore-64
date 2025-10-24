@@ -13,13 +13,19 @@ The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. Howev
 
 <img width="743" height="724" alt="image" src="https://github.com/user-attachments/assets/58894706-c022-432d-809c-ac3544666e7c" />
 
-Just in case you want to connect the joysticks, remember the correct wiring:
+This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico. There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my Pimmodore-64 project. Both RGB LED and the R-Pi 3 pins are not mandatory, however the RGB LED would be very cool and useful informing you which mode is the keyboard working, remember there are 6 different modes!
+
+<img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/6ad6fff9-a5b4-494b-8b81-050176261a98" />
+
+If you want to add the Atari-like joysticks, as mentioned, you will need to add some wiring in parallel in order to add the missing crosspoints to the matrix. 
+
+<img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" />
+
+Just in case, this is the joysticks pinout.
 
 <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
-This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico. There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my Pimmodore-64 project. Both RGB LED and the R-Pi 3 pins are not mandatory, however the RGB LED would be very cool and useful informing you which mode is the keyboard working, remember there are 6 different modes!
 
-<img width="945" height="601" alt="image" src="https://github.com/user-attachments/assets/a0c23ce0-b825-4167-b8d1-8370b28ff772" />
 
 
 
