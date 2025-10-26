@@ -5,7 +5,7 @@ The Keymmodore-64 project is an interfase to convert keyboards and joysticks of 
 
 In order to make a C-64 keyboard productive, Keymmodore-64 includes a lot of key combinations, like using the Commodore key as Function Key. This way, your C-64 Keyboard includes almost all keys you need for your everyday work.
 
-Besides the standard "PC Mode" describes above, Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or [BMC64](https://accentual.com/bmc64/). Using these modes, you can easily use your C-64 keyboard not even emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards.
+Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or [BMC64](https://accentual.com/bmc64/). With these modes, you can easily use your C-64 keyboard not even for emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards, and having 100% keys functionality.
 
 Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful [QMK Firmware](https://qmk.fm/), so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
@@ -16,13 +16,13 @@ In order to Keymmodore-64 to work correctly, you need two things:
 - Set your Operative System Keyboard layout to "US" or "US International". Do not use any other layout. "UK",  "Spanish" or any other regional layout won't work properly.
 - Download and use the .vkm files for your emulator. Set them as "User Positional". This make Emulation Modes work correctly with the Emulators. The default .vkm files do not work (being symbolic or positional).
 
-### "The Matrix"
+### "The Matrix Reloaded"
 
 The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. However if you want to add Atari-like joysticks to your project, you need to add some wiring in between the keyboard connector and the Pico. As you can see in the matrix diagram below, P1 and P2 use the "I" file and the "8th" row of the RESTORE key. Remember, THIS IS OPTIONAL (just because there are some free crosspoints). If your are not interested in those old joysticks, or you plan to use a Raspberry (like a [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)), you do not need to add this extra complexity.
 
 <img width="743" height="724" alt="image" src="https://github.com/user-attachments/assets/58894706-c022-432d-809c-ac3544666e7c" />
 
-This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico (there is a common cathode version too). There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my Pimmodore-64 project. Both RGB LED and the R-Pi 3 pins are not mandatory, however the RGB LED would be very cool and useful informing you which mode is the keyboard working, remember there are 6 different modes!
+This is the modified schematics for connecting the C-64 keyboard and a RGB LED to the Pico (there is a common cathode version too). There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) project. Both RGB LED and the R-Pi 3 pins are not mandatory, however the RGB LED would be very cool and useful informing you which mode is the keyboard working, remember there are 6 different modes!
 
 <img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/6ad6fff9-a5b4-494b-8b81-050176261a98" />
 
