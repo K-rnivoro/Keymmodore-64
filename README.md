@@ -85,17 +85,29 @@ So, pressing Commodore key:
 - / (slash) mutes the audio output (*).
 - C fires the Calculator (if supported by the Operative System).
 
-Also, F1 to F7 keys switch to different Modes or keyboards layouts, depending what computer you want to emulate in the emulator: 
+Also, F1 to F5 keys switch to different Modes or keyboards layouts, depending what computer you want to emulate in the emulator: 
 
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 - F3: Commodore-128 Compatible Mode.
 - F5: PET Graphics Keyboard Compatible Mode.
-- C= + F5 (already in PET Graphics Mode): PET Business Keyboard Compatible Mode.
+- F5 (again): PET Business Keyboard Compatible Mode (you need to be in PET Graphics Mode)
 - CONTROL: Back to PC Compatible Mode.
 
-If you wired the RGB LED it will show you which is the active mode. The color code of the LED is described later.
+To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.  
 
-To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.
+If you wired the RGB LED it will show you which is the active mode as described below.
+
+### RGB LED Color code
+
+- PC Compatible Mode: GREEN
+- Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
+- Commodore-128 Compatible Mode: BLUE
+- PET Graphics Keyboard Compatible Mode: YELLOW
+- PET Business Keyboard Compatible Mode: PURPLE
+
+In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
+
+In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 ### RIGHT SHIFT AS FUNCTION “Fn2” Key.
 
@@ -207,17 +219,6 @@ Keymmodore-64 implements a special layer with the C= key for those special keys.
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
-## RGB LED Color code
-
-- PC Compatible Mode: GREEN
-- Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
-- Commodore-128 Compatible Mode: BLUE
-- PET Graphics Keyboard Compatible Mode: YELLOW
-- PET Business Keyboard Compatible Mode: PURPLE
-
-In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
-
-In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 
 
