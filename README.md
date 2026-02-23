@@ -31,6 +31,34 @@ If you want to add the Atari-like joysticks, as mentioned, you will need to add 
 <img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" /> <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
 
+## Hot to switch Compatible Modes
+
+When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, for compatility with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET)
+
+Pressing and holding Commodore Key (C=) along with F1, F3 or F5 keys, it will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
+
+- F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
+- F3: Commodore-128 Compatible Mode.
+- F5: PET Graphics Keyboard Compatible Mode.
+- F5 (again): PET Business Keyboard Compatible Mode (you need to be in PET Graphics Mode)
+- CONTROL: Back to PC Compatible Mode.
+
+To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.  
+
+If you wired the RGB LED it will show you which is the active mode as described below.
+
+### RGB LED Color code
+
+- PC Compatible Mode: GREEN
+- Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
+- Commodore-128 Compatible Mode: BLUE
+- PET Graphics Keyboard Compatible Mode: YELLOW
+- PET Business Keyboard Compatible Mode: PURPLE
+
+In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
+
+In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
+
 ## PC Compatible Mode
 
 In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (Fn y Fn2) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
@@ -84,30 +112,6 @@ So, pressing Commodore key:
 - < (less than) y > (greater than) decrease and increase audio volume respectively (*).
 - / (slash) mutes the audio output (*).
 - C fires the Calculator (if supported by the Operative System).
-
-Also, F1 to F5 keys switch to different Modes or keyboards layouts, depending what computer you want to emulate in the emulator: 
-
-- F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
-- F3: Commodore-128 Compatible Mode.
-- F5: PET Graphics Keyboard Compatible Mode.
-- F5 (again): PET Business Keyboard Compatible Mode (you need to be in PET Graphics Mode)
-- CONTROL: Back to PC Compatible Mode.
-
-To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.  
-
-If you wired the RGB LED it will show you which is the active mode as described below.
-
-### RGB LED Color code
-
-- PC Compatible Mode: GREEN
-- Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
-- Commodore-128 Compatible Mode: BLUE
-- PET Graphics Keyboard Compatible Mode: YELLOW
-- PET Business Keyboard Compatible Mode: PURPLE
-
-In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
-
-In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 ### RIGHT SHIFT AS FUNCTION “Fn2” Key.
 
