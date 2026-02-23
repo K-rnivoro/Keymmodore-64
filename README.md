@@ -31,7 +31,7 @@ If you want to add the Atari-like joysticks, as mentioned, you will need to add 
 <img width="269" height="427" alt="image" src="https://github.com/user-attachments/assets/515d8df5-a64a-4d11-b1a3-c8c2e1772d92" /> <img width="267" height="165" alt="image" src="https://github.com/user-attachments/assets/f6808798-8658-4c7d-be5e-651d5e3f20b6" />
 
 
-## Hot to switch Compatible Modes
+## Hot to switch to Compatible Modes
 
 When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, for compatility with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET)
 
