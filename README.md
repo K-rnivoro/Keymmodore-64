@@ -39,7 +39,7 @@ If you want to add the Atari-like joysticks, as mentioned, you will need to add 
 
 When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, compatibles with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET Graphics/Business)
 
-Pressing and holding Commodore Key (C=) along with F1, F3 or F5 keys, it will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
+Pressing and holding Commodore Key (C=) along with CONTROL, F1, F3 or F5 keys, it will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 - F3: Commodore-128 Compatible Mode.
