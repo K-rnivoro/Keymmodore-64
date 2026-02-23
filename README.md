@@ -231,7 +231,7 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 I've created some 3D frames if you want to install the Pico board inside a C-64 case. You can download the .zip containing the .stl files. 
 
 There are two options: With Joysticks ports or with no joysticks.
-It can be screwed to the right side of your bottom part of the case. it uses the same screw holes than the original PCB.
+It can be screwed to the right side of your bottom part of the case. It uses the same screw holes than the original PCB.
 I've made them in Sketchup (.skp) in case you want to download and improve it.
 
 For a "full" set of frames using a Raspberry Pi, check my other project  [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)).
