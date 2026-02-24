@@ -48,6 +48,10 @@ When Keymmodore-64 is powered from USB, the LED will go green, letting you know 
 
 Pressing and holding Commodore Key (C=) along with CONTROL, F1, F3 or F5 keys, it will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
+![Cambios Compatibilidad completo](https://github.com/user-attachments/assets/baf2c9d9-c7f1-40b2-b85b-c29c3f93aed3)
+
+
+
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 - F3: Commodore-128 Compatible Mode.
 - F5: PET Graphics Keyboard Compatible Mode.
