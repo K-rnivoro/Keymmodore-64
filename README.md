@@ -137,7 +137,7 @@ Pressing RIGHT SHIFT:
 - ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
 - The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
-## Commodore-64, VIC-20 and Plus/4 Compatible Mode.
+## Commodore-64, VIC-20 Compatible Mode.
 
 As explained before, pressing C= Key and F1, the interfase switches to this compatible Mode. Depending the computer being emulated in the emulator (and the right .vkm files), you will have the following layouts:
 
