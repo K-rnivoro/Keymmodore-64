@@ -147,7 +147,7 @@ As explained before, pressing C= Key and F1, the interfase switches to this comp
 
 In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. Remember to press C= and CONTROL to go back to PC Compatible Mode when you exit your emulator.
 
-### COMMODORE PLUS/4 or COMMODORE-16 (or any other C-264 Model)
+### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
 
 Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the location of some keys keeping the original C-64 layout as much as possible.
 
