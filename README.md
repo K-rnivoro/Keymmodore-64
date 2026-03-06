@@ -26,7 +26,7 @@ The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. Howev
 
 <img width="743" height="724" alt="image" src="https://github.com/user-attachments/assets/58894706-c022-432d-809c-ac3544666e7c" />
 
-This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico (for common cathode RGB LED, just connect the common pin to any GND). There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) project. Both RGB LED and the R-Pi 3 pins are not mandatory, however the RGB LED would be very cool and useful informing you which mode is the keyboard working, remember there are 6 different modes!
+This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico (for common cathode RGB LED, just connect the common pin to any GND). There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) project. RGB LED is not mandatory, however the LED it's very useful giving you information about which mode is the keyboard working, remember there are 6 different modes!
 
 <img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/6ad6fff9-a5b4-494b-8b81-050176261a98" />
 
