@@ -240,6 +240,12 @@ Keymmodore-64 implements a special layer with the C= key for those special keys.
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
+
+## How to test your Keyboard
+
+Use a Keyboard testes. There is a lot of them out there, but I found [Switch Hitter](https://www.majorgeeks.com/files/details/switch_hitter.html) being the best (for Windows).
+
+
 ## Putting your Keymmodore-64 interface inside your C-64 case.
 
 I've created some 3D frames if you want to install the Pico board inside a C-64 case. You can download the .zip containing the .stl files. 
@@ -257,9 +263,6 @@ A pic of the frame (no joysticks option) installed in the case:
 With keyboard connected (LED connection not shown):
 
 ![Detalle Cable](https://github.com/user-attachments/assets/4e2fdd49-3f8e-441e-bd00-87b3bba21217)
-
-
-
 
 
 
