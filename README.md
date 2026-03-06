@@ -41,10 +41,14 @@ For an easier connection between the Pico and the C-64 Keyboard, you can wire so
 
 If you decide to wire the joystick ports too, you have to work a little bit more on the soldering...
 
+![cables pimmodore](https://github.com/user-attachments/assets/37b49878-31eb-485e-99a9-d5fc397ed77d)
+
+(don't mind dupont cables being male, you get the idea)
+
 
 ## How to switch to Compatible Modes
 
-When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, compatibles with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET Graphics/Business)
+When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, compatibles with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET Graphics, PET Business)
 
 Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it along with F1, F3, F5 or CONTROL key, the interface will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
