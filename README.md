@@ -22,7 +22,7 @@ In order to Keymmodore-64 to work correctly, you need two things:
 
 ### "The Matrix Reloaded"
 
-The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. However if you want to add Atari-like joysticks to your project, you need to add some wiring in between the keyboard connector and the Pico. As you can see in the matrix diagram below, P1 and P2 use the "I" file and the "8th" row of the RESTORE key. Remember, THIS IS OPTIONAL (just because there are some free crosspoints). If your are not interested in those old joysticks, or you plan to use a Raspberry (like a [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)), you do not need to add this extra complexity.
+The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. However if you want to add Atari-like joysticks to your project, you need to add some wiring in between the keyboard connector and the Pico. As you can see in the matrix diagram below, P1 and P2 use the "I" line and the "8th" row of the RESTORE key. Remember, THIS IS OPTIONAL (just because there are some free crosspoints). If your are not interested in those old joysticks, or you plan to use a Raspberry (like a [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)), you don't need to add this extra complexity.
 
 <img width="743" height="724" alt="image" src="https://github.com/user-attachments/assets/58894706-c022-432d-809c-ac3544666e7c" />
 
