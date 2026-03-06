@@ -43,7 +43,6 @@ If you decide to wire the joystick ports too, you have to work a little bit more
 
 ![cables pimmodore](https://github.com/user-attachments/assets/37b49878-31eb-485e-99a9-d5fc397ed77d)
 
-(don't mind dupont cables being male, you get the idea)
 
 
 ## How to switch to Compatible Modes
