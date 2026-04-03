@@ -44,6 +44,14 @@ If you decide to wire the joystick ports too, you have to work a little bit more
 ![cables pimmodore](https://github.com/user-attachments/assets/37b49878-31eb-485e-99a9-d5fc397ed77d)
 
 
+## How to properly solder the pins to the Pico.
+
+I suggest you to solder the pins to each side of the Pico, in the same side than the components, so you connect the dupont cables on the other side, as shown here:
+
+<img width="857" height="718" alt="image" src="https://github.com/user-attachments/assets/580b2233-7151-4d68-8261-b34dd08d2cec" />
+
+This is important if you plan to print the holder (explained below), or build a [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)
+
 
 ## How to switch to Compatible Modes
 
