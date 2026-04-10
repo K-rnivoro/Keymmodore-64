@@ -16,7 +16,7 @@ Just download the .zip file with the firmwares, and flash your Pi Pico with the 
 
 ## A very important Note
 
-In order to Keymmodore-64 to work correctly, you need two things:
+In order to Keymmodore-64 to work correctly, you need a few things:
 
 - Set your Operative System Keyboard layout to "US" or "US International". Do not use any other layout. "UK",  "Spanish" or any other regional layout won't work properly.
 - Download and use the .vkm files for your emulators. Set them as "User Positional" for each computer to be emulated. This make Emulation Modes work correctly with the Emulators. The default .vkm files do not work (being symbolic or positional).
