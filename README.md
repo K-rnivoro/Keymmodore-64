@@ -221,7 +221,7 @@ Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressin
 
 ### A note about SDL2 Winvice: 
 
-Due to some limitations of how SDL2 works (or mines as a programmer) some PETSCII graphics won't match the corresponding key in combination with SHIFT, particulary symbol keys: @/*/+/-/£. Therefore, GTK3 is preferred.
+Due to some limitations of how SDL2 works (or mine as a programmer) some PETSCII graphics won't match the corresponding key in combination with SHIFT, particulary symbol keys: @/*/+/-/£. Therefore, GTK3 is preferred.
 
 
 
