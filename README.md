@@ -20,7 +20,7 @@ In order to Keymmodore-64 to work correctly, you need a few things:
 
 - Set your Operative System Keyboard layout to "US" or "US International". Do not use any other layout. "UK",  "Spanish" or any other regional layout won't work properly.
 - Download and use the .vkm files for your emulators. Set them as "User Positional" for each computer to be emulated. This make Emulation Modes work correctly with the Emulators. The default .vkm files do not work (being symbolic or positional).
-- There is one VKM set of files for BMC64, and two sets for VICE, due to VICE having SDL2 and GTK3 builds.
+- There is one VKM set of files for BMC64, and two sets for VICE, due to VICE having SDL2 and GTK3 builds, although GTK3 is preferred as explained below.
 
 ### "The Matrix Reloaded"
 
@@ -210,15 +210,19 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want. .
 
-Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
+Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
 Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ea104305-b933-44f2-ba22-5faf6afe4fc4" />
 
-
 Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
+
+### A note about SDL2 Winvice: 
+
+Due to some limitations of how SDL2 works (or mines as a programmer) some PETSCII graphics won't match the corresponding key in combination with SHIFT, particulary symbol keys: @/*/+/-/£. Therefore, GTK3 is preferred.
+
 
 
 ## Commodore PET Business Keyboard Compatible Mode.
