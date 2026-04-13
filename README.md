@@ -1,4 +1,4 @@
-<img width="1839" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/10afeed0-1865-4793-8da6-953b5cf08b75" /><img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/88201bd7-c3a8-4f85-916e-3346f4abda18" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System, and VIC-20, C-64, C-128, Plus/4 and PET emulators.
 
@@ -227,6 +227,7 @@ Look how weird it is:
 
 In this Mode, the layout of your C-64 keyboard will be the following:
 
+
 <img width="1836" height="515" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/a81fe50f-791e-491f-9495-8e7d1d03f7d2" />
 
 ### REGULAR PET GRAPHICS KEYS
@@ -243,10 +244,7 @@ As mentioned, every symbol have it's own key. In order to access those keys, the
 
 Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
-Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
-
-<img width="1836" height="515" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/0dc8fe73-4a99-4500-ab7c-9494b36d8c8a" />
-
+Joining both features, in the diagram above you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
 Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
 
