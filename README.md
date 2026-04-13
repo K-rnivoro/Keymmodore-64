@@ -91,7 +91,7 @@ In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 Keyboard has no Numeric KeyPad, nor complete set of Function Keys (F1 a F12), the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. 
 
-<img width="1838" height="512" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/71e03c05-6c6b-408d-a628-6388d890671f" />
+<img width="1835" height="509" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/7a921c9c-9fb6-431b-9d11-b0306046ea7d" />
 
 
 ### EXCLUSIVE C-64 KEYS:
