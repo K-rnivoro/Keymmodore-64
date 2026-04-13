@@ -237,7 +237,7 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 - £ (pound) key works a \ (backslash).
 - RESTORE key works as second INST/DEL.
 - C= does not exist in PET Graphics Keyboard, however we will use it to access PETSCII graphics set as explained below.
-- Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, therefore they have no function. 
+- Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, however F5 is used as explained below. 
 
 ### SYMBOLS AND PETSCII GRAPHICS
 
@@ -247,7 +247,9 @@ Regarding PETSCII graphics, the character set is identical to the C-64, despite 
 
 Joining both features, in the diagram above you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
-Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
+### Switching to PET Business Mode or PC Mode
+
+Pressing C= and CONTROL keys switch to PC Compatible Mode. Also, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode.
 
 ### A note about SDL2 Winvice: 
 
@@ -256,7 +258,11 @@ Due to some limitations of how SDL2 works (or mine as a programmer) some PETSCII
 
 ## Commodore PET Business Keyboard Compatible Mode.
 
-This second mode allows to emulate the so called «Business» keyboard (the one with upper and lower case letters) used by the later Commodore PET Series Computer. This keyboard has some particular symbolic only keys like Brackets ([ ]), minus and equal (- =), asterisk and colon (: *). It's weird like the Graphics keyboard, but not that weird.
+This second mode allows to emulate the so called «Business» keyboard (the one with upper and lower case letters) used by the later Commodore PET Series Computer.
+
+You can´t switch from PC Mode to PET Business Mode directly, first you have to switch to Graphics Mode, then to Business Mode (Only four Functions key, sorry...)
+
+This keyboard has some particular symbolic only keys like Brackets ([ ]), minus and equal (- =), asterisk and colon (: *). It's weird like the Graphics keyboard, but not that weird.
 
 <img width="1024" height="287" alt="image" src="https://github.com/user-attachments/assets/148a0fb9-7d53-4e0f-9466-30efb323b4fb" />
 
@@ -278,11 +284,11 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 
 ### NUMERIC PAD AND BRACKET KEYS
 
-Keymmodore-64 implements a special layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
+Keymmodore-64 implements a layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
 
 - 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
-- >/. key correspond to Numpad´s Decimal key
-- Left Bracket and Right Bracket Symbols keys 
+- >/. key is mapped to Numpad´s Decimal key
+- Left Bracket and Right Bracket keys correspond to those particular symbol-only keys. 
   
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
