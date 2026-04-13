@@ -89,9 +89,9 @@ In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 ## PC Compatible Mode
 
-In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
+In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 Keyboard has no Numeric KeyPad, nor complete set of Function Keys (F1 a F12), the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. 
 
-<img width="1834" height="514" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/8aa26202-1a7d-447d-bf52-139f81c44237" />
+<img width="1838" height="512" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/71e03c05-6c6b-408d-a628-6388d890671f" />
 
 
 ### EXCLUSIVE C-64 KEYS:
@@ -124,8 +124,8 @@ In the diagram you can see in yellow which keys will change its function when Fn
 
 - RUN/STOP works as Left GUI key (also called Windows key).
 - 1 to 0 keys, as well as + y – will work as F1 to F12
-- HOME key works as END
-- INST/DEL key works as INSERT as the top legend.
+- CLR/HOME key works as END
+- INST/DEL key works as INSERT (as labeled).
 - ↑ and RESTORE keys works as PAGE UP y PAGE DOWN respectively.
 - ↓ and → cursor keys work up (↑) and left (←) respectively, as the top legend described.
 - WASD and IJKL work as directional cursor  ↑←↓→ respectively.
@@ -135,7 +135,7 @@ In the diagram you can see in yellow which keys will change its function when Fn
 - @ (at) key works enabling and disabling SCROLL LOCK.
 - * (asterisk) key works as PAUSE.
 - N key enables and disables NUM LOCK (This seems trivial for a non-numpad keyboard, but it is very important for joysticks to work to have NUM LOCK enabled). 
-- < (less than) y > (greater than) decrease and increase audio volume respectively (*).
+- < (less than) and > (greater than) decrease and increase audio volume respectively (*).
 - / (slash) mutes the audio output (*).
 - C fires the Calculator (*).
 
