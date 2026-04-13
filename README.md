@@ -287,7 +287,7 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 Keymmodore-64 implements a layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
 
 - 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
-- >/. key is mapped to Numpad´s Decimal key
+- Greater than/. key is mapped to Numpad´s Decimal key
 - Left Bracket and Right Bracket keys correspond to those particular symbol-only keys. 
   
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
