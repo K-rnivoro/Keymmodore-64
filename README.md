@@ -164,6 +164,7 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout as much as possible.
 
+![Uploading Keymmodore C16 Mode.png…]()
 
 
 As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
@@ -178,11 +179,21 @@ Press C= and CONTROL keys to switch back to PC Compatible Mode.
 
 ## Commodore-128 Compatible Mode.
 
-Due to having more keys than a C-64 keyboard, the RIGHT SHIFT is implemented as a FUNCTION or Modifier Key, allowing to to access to the propietary keys of the C-128 which are mapped on the C-64 keyboard in this way:
+Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 keyboard. For that, the RIGHT SHIFT is implemented as a FUNCTION or Modifier Key, allowing to to access to the propietary keys of the C-128 which are mapped on the C-64 keyboard in this way (marked in green):
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ca4b3700-139b-4932-b9c7-5f5940c27530" />
 
-So, pressing RIGHT SHIFT and the 1/! key, will result in a "1" instead of a "!", because it corresponds to the Key 1 of the Numerical Pad, not the regular 1 Key.
+So for example: pressing RIGHT SHIFT and the 1/! key, will result in a "1" instead of a "!", because it corresponds to the Key 1 of the Numerical Pad, not the regular 1 Key.
+
+### CURSOR Keys in C-128 Mode.
+
+C-128 has double cursor keys, the regular two C-64 keys, and the exclusive four C-128 independent keys. So, both cursor keys work this way:
+
+- With no modifier key pressed, they work as originally labeled: Down and Right respectively.
+- With Left SHIFT key, they work also as original labeled: Up and Left.
+- With RIGHT SHIFT key, they work as Up and Left C-128 exclusive keys.
+- With Commodore Key (C=) they work as Down and Right C-128 exclusive keys (pretty stupid but necessary for completeness)
+
 
 Remember to press C= and CONTROL keys to switch back to PC Compatible Mode.
 
