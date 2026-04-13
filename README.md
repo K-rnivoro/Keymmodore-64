@@ -1,4 +1,4 @@
-<img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/88201bd7-c3a8-4f85-916e-3346f4abda18" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System, and VIC-20, C-64, C-128, Plus/4 and PET emulators.
 
@@ -161,6 +161,8 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 ### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
 
+
+
 Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout as much as possible.
 
 <img width="1837" height="507" alt="Keymmodore C16 Mode" src="https://github.com/user-attachments/assets/4e1cf5ce-1612-4753-b2cf-5de7bfaca626" />
@@ -177,10 +179,14 @@ Press C= and CONTROL keys to switch back to PC Compatible Mode.
 
 ## Commodore-128 Compatible Mode.
 
-
 Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 keyboard. 
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ca4b3700-139b-4932-b9c7-5f5940c27530" />
+![C128 Keyboard](https://github.com/user-attachments/assets/a6c9ae8e-5ff7-4801-b1d1-0fb5b991510b)
+
+
+This is the diagram of a C-128 Keyboard in a C-64 one:
+
+<img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/178ce660-af07-4698-a3f5-b80b5622002f" />
 
 ### Exclusive C-128 Keys.
 
