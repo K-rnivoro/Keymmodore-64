@@ -1,4 +1,4 @@
-<img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/88201bd7-c3a8-4f85-916e-3346f4abda18" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1839" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/10afeed0-1865-4793-8da6-953b5cf08b75" /><img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/88201bd7-c3a8-4f85-916e-3346f4abda18" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System, and VIC-20, C-64, C-128, Plus/4 and PET emulators.
 
@@ -161,9 +161,10 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 ### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
 
+![Plus4 Keyboard](https://github.com/user-attachments/assets/4e62082b-f0dd-448a-a269-8527adb85d9f)
 
 
-Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout as much as possible.
+While emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout.
 
 <img width="1837" height="507" alt="Keymmodore C16 Mode" src="https://github.com/user-attachments/assets/4e1cf5ce-1612-4753-b2cf-5de7bfaca626" />
 
@@ -260,12 +261,13 @@ This second mode allows to emulate the so called «Business» keyboard (the one 
 
 <img width="1024" height="287" alt="image" src="https://github.com/user-attachments/assets/148a0fb9-7d53-4e0f-9466-30efb323b4fb" />
 
-Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position. 
+Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position as seen in the following diagram: 
 
-You can see the differences in the following diagram:
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f2023e57-2a4e-4a6a-b023-f4467634eecd" />
+<img width="1839" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/ba11ef30-6292-4787-802c-b5984fcd2aa0" />
 
+
+### EXCLUSIVE KEYS
 
 - CTRL key works as TAB.
 - £ (Pound) key works as \ (backslash).
@@ -275,11 +277,11 @@ You can see the differences in the following diagram:
 - F5 key works as REPEAT.
 - F7 key have no function.
 
-### ACCESS TO NUMERIC PAD AND BRACKET KEYS
+### NUMERIC PAD AND BRACKET KEYS
 
 Keymmodore-64 implements a special layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/9ff61c5f-01b7-4932-9020-95c53a9c24f8" />
+So, 
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
