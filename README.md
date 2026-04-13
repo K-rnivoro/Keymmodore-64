@@ -1,4 +1,4 @@
-<img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1046" height="290" alt="Keymmodore Mode Switching 2" src="https://github.com/user-attachments/assets/1399ca40-1312-4787-b156-8efc72f1973b" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System, and VIC-20, C-64, C-128, Plus/4 and PET emulators.
 
@@ -61,14 +61,15 @@ When Keymmodore-64 is powered from USB, the LED will go green, letting you know 
 
 Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it along with F1, F3, F5 or CONTROL key, the interface will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
-![Cambios Compatibilidad completo](https://github.com/user-attachments/assets/baf2c9d9-c7f1-40b2-b85b-c29c3f93aed3)
+[Keymmodore Mode switching.bmp](https://github.com/user-attachments/files/26675664/Keymmodore.Mode.switching.bmp)
 
 
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 - F3: Commodore-128 Compatible Mode.
 - F5: PET Graphics Keyboard Compatible Mode.
-- F5 (again): PET Business Keyboard Compatible Mode (you need to be in PET Graphics Mode)
+- F5 (again, from PET Graphics): PET Business Keyboard Compatible Mode.
 - CONTROL: Back to PC Compatible Mode.
+- F7: This key is reserved for the BMC64 emulator Menu, when used as Pimmodore-64.
 
 To avoid any confussion, it is not possible to switch between two Emulator Modes (except PET Graphics to Business) . You have to switch back to PC Compatible Mode first by pressing C= and CONTROL. Also remember you need the configuration keyboard layout files for your emulator to work properly.  
 
@@ -88,9 +89,11 @@ In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 ## PC Compatible Mode
 
-In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (Fn y Fn2) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
+In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/acb42d1a-71bf-4544-9131-2dcf0950dc6b" />
+<img width="1837" height="511" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/2de5a013-5484-486c-91b3-f307b0d72390" />
+
+
 
 ### EXCLUSIVE C-64 KEYS:
 - RUN/STOP works as Left ALT.
@@ -118,35 +121,31 @@ The Left SHIFT works like any standard PC Keyboard, allowing access to capital l
 
 The key with  the C= symbol on it, generally called «Commodore Key», works also a Modification key allowing to access to a different layers and function like a “60%” Style Keyboards.
 
-In the following diagram you can see in white which keys will change its function when Fn  (C=) is pressed. Some functions are already in the legends of the keys, and others are added to better productivity.
+In the diagram you can see in yellow which keys will change its function when Fn (C=) is pressed. Some functions are already in the legends of the keys, and others are added to better productivity.
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/102fc4d9-a8c2-44eb-8ace-db79c0e66528" />
-
-So, pressing Commodore key:
-
+- RUN/STOP works as Left GUI key (also called Windows key).
 - 1 to 0 keys, as well as + y – will work as F1 to F12
 - HOME key works as END
 - INST/DEL key works as INSERT as the top legend.
 - ↑ and RESTORE keys works as PAGE UP y PAGE DOWN respectively.
 - ↓ and → cursor keys work up (↑) and left (←) respectively, as the top legend described.
-- Q and E, as well as U and O keys, work as PAGE UP and PAGE DOWN respectively.
-- WASD and IJKL work as directional cursor  ↑ ←↓ → respectively.
-- ← key work as ` (grave tilde), and ~ (diacritic).
+- WASD and IJKL work as directional cursor  ↑←↓→ respectively.
+- ← (left arrow) key work as ` (grave tilde), and ~ (diacritic).
 - : (colon) and ; (semicolon) work as { and } (brackets) respectively.
 - P key works as PRINT SCREEN.
 - @ (at) key works enabling and disabling SCROLL LOCK.
-- * (asterisk) key works enabling and disabling NUM LOCK  (very important for joysticks). 
+- * (asterisk) key works as PAUSE.
+- N key enables and disables NUM LOCK (This seems trivial for a non-numpad keyboard, but it is very important for joysticks to work to have NUM LOCK enabled). 
 - < (less than) y > (greater than) decrease and increase audio volume respectively (*).
 - / (slash) mutes the audio output (*).
-- C fires the Calculator (if supported by the Operative System).
+- C fires the Calculator (*).
 
-### RIGHT SHIFT AS FUNCTION “Fn2” Key.
+(*) If supported by the Operative System.
 
-The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a Function as explained:
+### RIGHT SHIFT AS SECOND FUNCTION Key.
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/f63dd00c-08ce-4ba8-8270-5038941cd58d" />
+The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a second function key, as shown in green in the diagram above:
 
-Pressing RIGHT SHIFT:
 - ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
 - The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
