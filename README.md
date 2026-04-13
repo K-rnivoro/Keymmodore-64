@@ -199,11 +199,11 @@ Because implementing C= as Modifier Key is not possible due to being used by the
 - RUN/STOP is ALT.
 - Up Arrow key is CAPS LOCK.
 - RETURN is Numpad´s RETURN.
-- Greater-than/. is Numpad´s decimal.
+- \>/. is Numpad´s decimal.
 - F1 in HELP.
 - F3 is LINE FEED.
 - F5 is 40/80 DISPLAY.
-- f7 is NO SCROLL.
+- F7 is NO SCROLL.
 
 ### CURSOR Keys in C-128 Mode.
 
@@ -288,7 +288,7 @@ Keymmodore-64 implements a layer with the C= key for those special keys. You can
 
 - 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
 - \>/. key is mapped to Numpad´s Decimal key
-- Left Bracket and Right Bracket keys correspond to those particular symbol-only keys. 
+- \[/: and ]/; keys correspond to those particular symbol-only Left Bracket and Right Brackets keys. 
   
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
