@@ -162,11 +162,11 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 ### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
 
-Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the location of some keys keeping the original C-64 layout as much as possible.
+Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys keeping the original C-64 layout as much as possible.
 
 <img width="1024" height="282" alt="image" src="https://github.com/user-attachments/assets/db3d46e8-c04e-4814-a5d5-446a60784d44" />
 
-As you can see, location of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
+As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
 
 The changes are:
 
