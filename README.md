@@ -262,7 +262,7 @@ This second mode allows to emulate the so called «Business» keyboard (the one 
 Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position as seen in the following diagram: 
 
 
-<img width="1839" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/ba11ef30-6292-4787-802c-b5984fcd2aa0" />
+<img width="1837" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/d25669a1-2dbf-4fc4-9e9b-b174c81ce19e" />
 
 
 ### EXCLUSIVE KEYS
