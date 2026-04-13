@@ -91,7 +91,7 @@ In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
 
 In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 had no Numeric KeyPad, nor complete set of Function Keys (F1 a F12),  the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. In light brown you can see the keys having different assignments than the original C-64 Keyboard, as described below.
 
-<img width="1837" height="511" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/2de5a013-5484-486c-91b3-f307b0d72390" />
+<img width="1837" height="517" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/606200c1-c031-4425-9e0b-c6c6d83b4fc5" />
 
 
 
@@ -155,25 +155,26 @@ As explained before, pressing C= Key and F1, the interfase switches to this comp
 
 ### COMMODORE-64 AND VIC-20
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/03dd081a-8797-4447-872e-f3c166db8175" />
+<img width="1836" height="513" alt="Keymmodore VIC20-C64 Mode" src="https://github.com/user-attachments/assets/30e80457-07e3-45c9-ab0d-e71ef492bc46" />
 
-In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. Remember to press C= and CONTROL to go back to PC Compatible Mode when you exit your emulator.
+
+In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. The only added functionality is pressing C= and CONTROL goes back to PC Compatible Mode, so you can switch between your Emulator and Operative System.
 
 ### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
 
-Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys keeping the original C-64 layout as much as possible.
+Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout as much as possible.
 
-<img width="1024" height="282" alt="image" src="https://github.com/user-attachments/assets/db3d46e8-c04e-4814-a5d5-446a60784d44" />
+
 
 As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
 
 The changes are:
 
-- The original C-64 cursor keys work as ↓ (Down) and → (Right). SHIFT won’t invert the direccion of these two as it does in the C-64.
+- The original C-64 cursor keys work as ↓ (Down) and → (Right). SHIFT won’t invert the direccion of these two, as it does in the C-64.
 - ↑ (Arrow Up) and RESTORE work as ↑ (Up) and ← (Left) respectively.
 - F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
 
-Remember to press C= and CONTROL keys to switch back to PC Compatible Mode.
+Press C= and CONTROL keys to switch back to PC Compatible Mode.
 
 ## Commodore-128 Compatible Mode.
 
