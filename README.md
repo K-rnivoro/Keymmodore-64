@@ -94,7 +94,6 @@ In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the or
 <img width="1837" height="517" alt="Keymmodore PC Mode" src="https://github.com/user-attachments/assets/606200c1-c031-4425-9e0b-c6c6d83b4fc5" />
 
 
-
 ### EXCLUSIVE C-64 KEYS:
 - RUN/STOP works as Left ALT.
 - RESTORE works as BACKSPACE
@@ -178,23 +177,37 @@ Press C= and CONTROL keys to switch back to PC Compatible Mode.
 
 ## Commodore-128 Compatible Mode.
 
-Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 keyboard. For that, the RIGHT SHIFT is implemented as a FUNCTION or Modifier Key, allowing to to access to the propietary keys of the C-128 which are mapped on the C-64 keyboard in this way (marked in green):
+
+Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 keyboard. 
 
 <img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ca4b3700-139b-4932-b9c7-5f5940c27530" />
 
-So for example: pressing RIGHT SHIFT and the 1/! key, will result in a "1" instead of a "!", because it corresponds to the Key 1 of the Numerical Pad, not the regular 1 Key.
+### Exclusive C-128 Keys.
+
+Because implementing C= as Modifier Key is not possible due to being used by the computer itself, RIGHT SHIFT is mapped as a Function or Modifier Key, allowing access to the propietary keys of the C-128 which are mapped on the C-64 keyboard in this way (marked in green):
+
+- Left Arrow key, will result in ESC key.
+- Pressing first first row keys, from 1 (one) to - (minus) keys, will result in the corresponding Numerical Pad key. For example, pressing 1/! will result in a "1" instead of a "!", because it corresponds to the Key 1 of the Numerical Pad, not the regular 1 Key.
+- CONTROL key is TAB.
+- RUN/STOP is ALT.
+- Up Arrow key is CAPS LOCK.
+- RETURN is Numpad´s RETURN.
+- >/. is Numpad´s decimal.
+- F1 in HELP.
+- F3 is LINE FEED.
+- F5 is 40/80 DISPLAY.
+- f7 is NO SCROLL.
 
 ### CURSOR Keys in C-128 Mode.
 
-C-128 has double cursor keys, the regular two C-64 keys, and the exclusive four C-128 independent keys. So, both cursor keys work this way:
+C-128 has double set of cursor keys: The regular two C-64 keys, and the exclusive four C-128 independent keys. So, the two C-64 keys work this way:
 
 - With no modifier key pressed, they work as originally labeled: Down and Right respectively.
-- With Left SHIFT key, they work also as original labeled: Up and Left.
+- With Left SHIFT key, they work also as original labeled too: Up and Left.
 - With RIGHT SHIFT key, they work as Up and Left C-128 exclusive keys.
 - With Commodore Key (C=) they work as Down and Right C-128 exclusive keys (pretty stupid but necessary for completeness)
 
-
-Remember to press C= and CONTROL keys to switch back to PC Compatible Mode.
+As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
 ## Commodore PET Graphics Keyboard Compatible Mode.
 
@@ -207,8 +220,9 @@ Look how weird it is:
 
 In this Mode, the layout of your C-64 keyboard will be the following:
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/b986ce41-3792-4ebf-a542-d8037283bc3e" />
+<img width="1836" height="515" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/a81fe50f-791e-491f-9495-8e7d1d03f7d2" />
 
+### REGULAR PET GRAPHICS KEYS
 
 - CTRL key works as OFF/RVS.
 - £ (pound) key works a \ (backslash).
@@ -216,23 +230,22 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 - C= does not exist in PET Graphics Keyboard, however we will use it to access PETSCII graphics set as explained below.
 - Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, therefore they have no function. 
 
-### ACCESS TO SYMBOL KEYS AND PETSCII GRAPHICS
+### SYMBOLS AND PETSCII GRAPHICS
 
-As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want. .
+As mentioned, every symbol have it's own key. In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want.
 
 Regarding PETSCII graphics, the character set is identical to the C-64, despite having just one PETSCII for each key. Keymmodore-64 implements a cool feature, able to «merge» again those two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
 Joining both features, in the following diagram you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches most of the layout of the C-64 keyboard.
 
+<img width="1836" height="515" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/0dc8fe73-4a99-4500-ab7c-9494b36d8c8a" />
 
-<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/ea104305-b933-44f2-ba22-5faf6afe4fc4" />
 
 Pressing C= and CONTROL keys switch back to PC Compatible Mode. However, pressing C= and F5 keys again, switch to PET Business Keyboard Compatible Mode as explained below.
 
 ### A note about SDL2 Winvice: 
 
 Due to some limitations of how SDL2 works (or mine as a programmer) some PETSCII graphics won't match the corresponding key in combination with SHIFT, particulary symbol keys: @/*/+/-/£. Therefore, GTK3 is preferred.
-
 
 
 ## Commodore PET Business Keyboard Compatible Mode.
