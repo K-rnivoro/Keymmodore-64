@@ -223,7 +223,8 @@ Commodore PET has two different keyboards layout, so both need to be emulated se
 The first mode allows to emulate the so called «Graphics» keyboards, the one with PETSCII graphics used by the early Commodore PET Series Computer. This Graphics keyboard has an odd layout where every symbol has their own key, and also there is just one PETSCII graphics per key instead of two as found in C-64 Keyboard.
 Look how weird it is:
 
-<img width="1000" height="294" alt="image" src="https://github.com/user-attachments/assets/508a0dce-3a4c-4385-b2e6-906934558163" />
+![PET Graphics Keyboard](https://github.com/user-attachments/assets/86339b22-2229-4c00-950c-4876ef8f2f1c)
+
 
 In this Mode, the layout of your C-64 keyboard will be the following:
 
@@ -279,8 +280,10 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 
 Keymmodore-64 implements a special layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
 
-So, 
-
+- 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
+- >/. key correspond to Numpad´s Decimal key
+- Left Bracket and Right Bracket Symbols keys 
+  
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
 
