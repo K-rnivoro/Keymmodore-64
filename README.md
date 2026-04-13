@@ -1,4 +1,4 @@
-<img width="1046" height="290" alt="Keymmodore Mode Switching 2" src="https://github.com/user-attachments/assets/1399ca40-1312-4787-b156-8efc72f1973b" /><img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System, and VIC-20, C-64, C-128, Plus/4 and PET emulators.
 
@@ -61,7 +61,7 @@ When Keymmodore-64 is powered from USB, the LED will go green, letting you know 
 
 Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it along with F1, F3, F5 or CONTROL key, the interface will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
-[Keymmodore Mode switching.bmp](https://github.com/user-attachments/files/26675664/Keymmodore.Mode.switching.bmp)
+<img width="2067" height="499" alt="Keymmodore Mode switching" src="https://github.com/user-attachments/assets/4ab23ba0-f3e2-4693-b70b-42422fd2fb4f" />
 
 
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
@@ -164,8 +164,7 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 Emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout as much as possible.
 
-![Uploading Keymmodore C16 Mode.png…]()
-
+<img width="1837" height="507" alt="Keymmodore C16 Mode" src="https://github.com/user-attachments/assets/4e1cf5ce-1612-4753-b2cf-5de7bfaca626" />
 
 As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
 
