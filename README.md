@@ -288,7 +288,7 @@ Keymmodore-64 implements a layer with the C= key for those special keys. You can
 
 - 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
 - \>/. key is mapped to Numpad´s Decimal key
-- \[/: and ]/; keys correspond to those particular symbol-only Open and Close Bracket keys respectively.
+- \[/: and ]/; keys correspond to those two particular "one-symbol-only" keys: Open Bracket and Close Bracket respectively.
    
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
