@@ -295,8 +295,9 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
 ## How to test your Keyboard
 
-Use a Keyboard testes. There is a lot of them out there, but I found [Switch Hitter](https://www.majorgeeks.com/files/details/switch_hitter.html) being the best (for Windows).
+Use a Keyboard tester. There is a lot of them out there, but I found [Switch Hitter](https://www.majorgeeks.com/files/details/switch_hitter.html) being the best (for Windows).
 
+For emulators, I strongly suggest to use the [Anykey program by T-Pau](https://github.com/T-Pau/Anykey). It has separate versions of programs for every 8 bit Commodore Computer. Very useful. 
 
 ## Putting your Keymmodore-64 interface inside your C-64 case.
 
