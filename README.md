@@ -154,8 +154,7 @@ As explained before, pressing C= Key and F1, the interfase switches to this comp
 
 ### COMMODORE-64 AND VIC-20
 
-<img width="1836" height="513" alt="Keymmodore VIC20-C64 Mode" src="https://github.com/user-attachments/assets/30e80457-07e3-45c9-ab0d-e71ef492bc46" />
-
+<img width="1813" height="497" alt="Keymmodore VIC20-C64 Mode" src="https://github.com/user-attachments/assets/108fe142-8f02-4523-9e6c-195f0823cd6d" />
 
 In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. The only added functionality is pressing C= and CONTROL goes back to PC Compatible Mode, so you can switch between your Emulator and Operative System.
 
@@ -163,10 +162,9 @@ In this Mode, the keyboard work exactly as it was original conceived for C-64 or
 
 ![Plus4 Keyboard](https://github.com/user-attachments/assets/4e62082b-f0dd-448a-a269-8527adb85d9f)
 
-
 While emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout.
 
-<img width="1837" height="507" alt="Keymmodore C16 Mode" src="https://github.com/user-attachments/assets/4e1cf5ce-1612-4753-b2cf-5de7bfaca626" />
+<img width="1811" height="489" alt="Keymmodore Plus 4 Mode" src="https://github.com/user-attachments/assets/58adbf33-205b-4bb2-b15c-fa52d7a85fee" />
 
 As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (pound) and CLEAR/HOME are the same than C-64.
 
@@ -185,9 +183,9 @@ Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 k
 ![C128 Keyboard](https://github.com/user-attachments/assets/a6c9ae8e-5ff7-4801-b1d1-0fb5b991510b)
 
 
-This is the diagram of a C-128 Keyboard in a C-64 one:
+This is the diagram of a C-128 Keyboard using a C-64 one:
 
-<img width="1836" height="513" alt="Keymmodore C128 Mode" src="https://github.com/user-attachments/assets/178ce660-af07-4698-a3f5-b80b5622002f" />
+<img width="1814" height="493" alt="Keymmodore C-128 Mode" src="https://github.com/user-attachments/assets/f62f2950-18ea-4954-8086-9d9b530b6987" />
 
 ### Exclusive C-128 Keys.
 
@@ -228,8 +226,7 @@ Look how weird it is:
 
 In this Mode, the layout of your C-64 keyboard will be the following:
 
-
-<img width="1836" height="515" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/a81fe50f-791e-491f-9495-8e7d1d03f7d2" />
+<img width="1820" height="495" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/4d62dd64-3aa4-428d-ba73-fe4f52daa86d" />
 
 ### REGULAR PET GRAPHICS KEYS
 
@@ -269,7 +266,7 @@ This keyboard has some particular symbolic only keys like Brackets ([ ]), minus 
 Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position as seen in the following diagram: 
 
 
-<img width="1837" height="513" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/d25669a1-2dbf-4fc4-9e9b-b174c81ce19e" />
+<img width="1814" height="493" alt="Keymmodore C-128 Mode" src="https://github.com/user-attachments/assets/25c32507-1e1a-4370-8eca-047cc9db56b3" />
 
 
 ### EXCLUSIVE KEYS
