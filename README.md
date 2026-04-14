@@ -1,4 +1,5 @@
-<img width="1200" height="150" alt="KEYmmodore_64-3" src="https://github.com/user-attachments/assets/27513dbf-624a-4bcf-a6cf-d66e24ab118c" />
+<img width="1200" height="150" alt="KEYmmodore_64-removebg-preview" src="https://github.com/user-attachments/assets/694ab1ab-2f60-4195-b64f-e3a9044ae307" />
+
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System and 8-bit Commodore Computers Emulators.
 
