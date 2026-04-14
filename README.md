@@ -61,7 +61,7 @@ When Keymmodore-64 is powered from USB, the LED will go green, letting you know 
 
 Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it along with F1, F3, F5 or CONTROL key, the interface will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
-<img width="2067" height="499" alt="Keymmodore Mode switching" src="https://github.com/user-attachments/assets/4ab23ba0-f3e2-4693-b70b-42422fd2fb4f" />
+<img width="2049" height="500" alt="Keymmodore Mode Switching" src="https://github.com/user-attachments/assets/66772593-3177-4119-b1f6-4c395ab03219" />
 
 
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
