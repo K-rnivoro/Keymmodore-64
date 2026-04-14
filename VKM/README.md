@@ -1,1 +1,1 @@
-This is vkm files repository for Commodore Emulators. 
+VKM files for Commodore Emulators. 
