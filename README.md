@@ -301,11 +301,12 @@ For emulators, I strongly suggest to use the [Anykey program by T-Pau](https://g
 
 ## Putting your Keymmodore-64 interface inside your C-64 case.
 
-I've created some 3D frames if you want to install the Pico board inside a C-64 case. You can download the .zip containing the .stl files. 
+I've created some 3D frames if you want to install the Pico board inside a C-64 case. I've made them in Sketchup (.skp) in case you want to download and improve it.
 
-There are two options: With Joysticks ports or with no joysticks.
-It can be screwed to the right side of your bottom part of the case. It uses the same screw holes than the original PCB.
-I've made them in Sketchup (.skp) in case you want to download and improve it.
+There are two alternatives: 
+
+- A frame for the bottom part of the case, if you plan to use joystick ports. It can be screwed to the right side of your bottom part of the case. It uses the same screw holes than the original PCB.
+- A holder for the top part of the case. This one is smaller and you can attach it with any of the screws holding the keyboard. This one is better if you do't plan to use Joysticks ports. Also, you can mirror it, depending on what side you want the USB connector.
 
 For a "full" set of frames using a Raspberry Pi, check my other project  [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)).
 
