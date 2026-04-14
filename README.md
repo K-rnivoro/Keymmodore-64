@@ -310,13 +310,6 @@ There are two alternatives:
 
 For a "full" set of frames using a Raspberry Pi, check my other project  [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)).
 
-A pic of the frame (no joysticks option) installed in the case:
-
-![Keymmodore1](https://github.com/user-attachments/assets/4a9a1fd1-4f34-4191-afda-6915668a009f)
-
-With keyboard connected (LED connection not shown):
-
-![Detalle Cable](https://github.com/user-attachments/assets/4e2fdd49-3f8e-441e-bd00-87b3bba21217)
 
 
 
