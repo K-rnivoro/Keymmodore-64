@@ -1,4 +1,4 @@
-<img width="2816" height="352" alt="Keymmodore_64 transparente" src="https://github.com/user-attachments/assets/588d03e0-2039-4598-be6e-b8508df80cc6" />
+<img width="1200" height="150" alt="KEYmmodore_64" src="https://github.com/user-attachments/assets/c0875e07-b3fe-4c83-842f-14eb0076ca12" />
 
 
 
