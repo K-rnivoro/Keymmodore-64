@@ -8,7 +8,7 @@ It's also part of my other project [Pimmodore-64](https://github.com/K-rnivoro/P
 
 In order to make a C-64 keyboard productive for a PC, Keymmodore-64 includes a lot of key combinations, like using the Commodore key as Function Key. This way, your C-64 Keyboard includes almost all keys you need for your everyday work.
 
-Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or the excellent Bare Metal Emulator for Raspberry Pi 3 [BMC64](https://accentual.com/bmc64/). With these modes, you can easily use your C-64 keyboard not even for emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards, and having 100% keys functionality.
+Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or the excellent Bare Metal Emulator for Raspberry Pi 3 [BMC64](https://accentual.com/bmc64/). With these modes, you can easily use your C-64 keyboard not even for emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards, always having 100% keys functionality.
 
 Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful [QMK Firmware](https://qmk.fm/), so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
