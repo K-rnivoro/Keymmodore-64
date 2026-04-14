@@ -1,0 +1,381 @@
+# GTK3-VICE keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro
+# Tested with VICE GTK3 v3.4
+# Mapped for compatibility to PET Models with Graphics Keyboards only (2000, 3000, 4000, Non-B models).
+#
+# PET Graphics Keyboard has only one character and one graphics PETSCII per key. 
+# Keymmodore uses C= Key to access a layer with PET Keys corresponding to shifted symbols of C-64 Keyboard (!/"/#/$/%/&/'/(/)/[/]/</>/?) so you have to hold C= for those keys.
+# You can access PET graphics PETSCII of those keys by pressing Shift and/or C=. Graphics PETSCII will match the the original PET Graphics Keyboard layout (not labeled in C64).
+#
+# Graphics PETSCII set of PET and C-64 are the same so there is no missing graphics PETSCII codes. They just have been redistributed to match C-64 Keyboard.
+# ANY left C-64 labeled Graphics PETSCII works using C= Key thanks to being remapped by Keymmodore-64.
+# ANY right C-64 labeled Graphics PETSCII works using Shift keys thanks to being remapped by VICE (this file).
+#
+# OFF/REVERSE key is mapped to CTRL (Control) Key.
+# Backslash Key is mapped to £ (Pound) Key.
+#
+#
+# File format:
+# - comment lines start with '#'
+# - keyword lines start with '!keyword'
+# - normal line has 'keysym/scancode row column shiftflag'
+#
+# Keywords and their lines are:
+# '!CLEAR'               clear whole table
+# '!INCLUDE filename'    read file as mapping file
+# '!LSHIFT row col'      left shift keyboard row/column
+# '!RSHIFT row col'      right shift keyboard row/column
+# '!VSHIFT shiftkey'     virtual shift key (RSHIFT or LSHIFT)
+# '!UNDEF keysym'        remove keysym from table
+#
+# Shiftflag can have the values:
+# 0      key is not shifted for this keysym/scancode
+# 1      key is shifted for this keysym/scancode
+# 2      left shift
+# 4      right shift
+# 8      key can be shifted or not with this keysym/scancode
+# 16     deshift key for this keysym/scancode
+# 32     another definition for this keysym/scancode follows
+# 256    key is used for an alternative keyboard mapping
+#
+# Negative row values:
+# 'keysym -1 n' joystick #1, direction n
+# 'keysym -2 n' joystick #2, direction n
+# 'keysym -3 0' first RESTORE key
+# 'keysym -3 1' second RESTORE key
+# 'keysym -4 0' 40/80 column key
+# 'keysym -4 1' CAPS (ASCII/DIN) key
+#
+
+# this is a PET graphics keyboard mapping (positional)
+
+#
+# Graphics keyboard matrix:
+#
+#       0        1        2        3        4        5        6        7
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 0 |   !    |   #    |   %    |   &    |   (    |  <--   |  home  |crsr rgt|
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 1 |   "    |   $    |   '    |   \    |   )    |--------|crsr dwn|  del   |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 2 |   q    |   e    |   t    |   u    |   o    |   ^    |   7    |   9    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 3 |   w    |   r    |   y    |   i    |   p    |--------|   8    |   /    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 4 |   a    |   d    |   g    |   j    |   l    |--------|   4    |   6    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 5 |   s    |   f    |   h    |   k    |   :    |--------|   5    |   *    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 6 |   z    |   c    |   b    |   m    |   ;    | return |   1    |   3    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 7 |   x    |   v    |   n    |   ,    |   ?    |--------|   2    |   +    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 8 |l shift |   @    |   ]    |--------|   >    |r shift |   0    |   -    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+# 9 | rvs on |   [    | space  |   <    |  stop  |--------|   .    |   =    |
+#   +--------+--------+--------+--------+--------+--------+--------+--------+
+#
+# The original gfx keyboard reflects the matrix perfectly:
+#
+#           !  "  #  $  %  '  &  \  (  )  <-     ^s ^q ^] ^t
+#           q  w  e  r  t  y  u  i  o  p  ^       7  8  9  /
+#           a  s  d  f  g  h  j  k  l  : ^m       4  5  6  *
+#           z  x  c  v  b  n  m  ,  ;  ? ^m       1  2  3  +
+#          LS ^r  @  [  ]  SPACE <  > ^c  RS      0  .  -  =
+#
+# http://www.6502.org/users/andre/petindex/keyboards.html
+
+!CLEAR
+!LSHIFT 8 0
+!RSHIFT 8 5
+!VSHIFT RSHIFT
+!SHIFTL LSHIFT
+
+
+###### Same Keys than C-64 Keyboard   #######
+
+# RUN/STOP
+Escape 9 4 8
+
+# CLR/HOME
+Home 0 6 8
+
+# Right/Left Cursor
+Right 0 7 8
+
+#Down/Right Cursor
+Down  1 6 8
+
+# INST/DEL. (Keymmodore maps both INST/DEL and RESTORE the same because there is no RESTORE Key in PET Keyboards).
+BackSpace 1 7 0
+
+# SHIFT
+Shift_L 8 0 2
+Shift_R 8 5 4
+
+# ENTER
+Return 6 5 8
+
+# Spacebar
+space 9 2 8
+
+# Arrow Up (Only key with one PETSCII and identical function than C64)
+Delete 2 5 8
+
+# Arrow Left
+dead_grave 0 5 0
+grave      0 5 0 
+
+# Equals (=)
+backslash 9 7 0
+bar       9 7 1
+
+#### (Scattered) Symbol Keys "merged" again into C-64 Keys with no PETSCII
+
+
+#Colon (:) and Brace Left ([)
+semicolon 5 4 0
+colon 5 4 1
+KP_Subtract 9 1 8  		/*     Numpad - -> [      */
+
+# Semicolon (;) and Brace Right (])
+dead_acute     6 4 0
+apostrophe     6 4 0
+dead_diaeresis 6 4 1
+quotedbl       6 4 1
+KP_Add 		   8 2 8 		/*     Numpad + -> ]       */
+
+# Comma (,) and Less(<)
+comma 7 3 0
+less 7 3 1
+Page_Up 		9 3 8 		/*     PgUp -> <           */
+
+# Period (.) and Greater (>)
+period 9 6 0
+greater 9 6 1
+Page_Down 	8 4 8 		/*     PgDown -> >         */
+
+# Slash (/) and Question (?)
+slash 3 7 0
+question 3 7 1
+KP_Divide 	7 4 8  		/*     Numpad / -> ?       */
+
+#### (Scattered) Symbols and Numbers "merged" again into C-64 Number Keys
+
+1               6 6 0			
+exclam          6 6 1
+F1   			0 0 8
+2               7 6 0			
+at              7 6 1		
+F2				1 0 8
+3               6 7 0
+numbersign      6 7 1
+F3				0 1 8
+4               4 6 0		
+dollar          4 6 1
+F4				1 1 8
+5               5 6 0			
+percent         5 6 1
+F5				0 2 8
+6               4 7 0		
+dead_circumflex 4 7 1
+asciicircum     4 7 1
+F6				0 3 8
+7               2 6 0			
+ampersand       2 6 1
+Up  			1 2 8
+8               3 6 0			
+asterisk        3 6 1
+Left			0 4 8
+9               2 7 0		
+parenleft       2 7 1
+F9				1 4 8
+0               8 6 0	 	
+parenright      8 6 1
+
+###### Keys not present in C64 keyboard ######
+
+# Backslash (\) (Using Pound (£) Key in C64 Keyboard)
+Tab 1 3 0
+ISO_Left_Tab 1 4 1
+
+# OFF / RVS (Using CTRL key in C64 Keyboard)
+Insert 9 0 8
+
+
+###### Keys matching C64 keyboard having one character and two PETSCII ######
+# Right PETSCII with any Shift Key.
+# Left PETSCII with Commodore Key.
+# PETSCII are remapped to match C64 Keyboard. 
+
+
+# Plus (+)
+minus 7 7 0
+underscore 9 1 1
+
+
+# Minus (-)
+equal 8 7 0
+plus 8 2 1
+KP_Multiply 1 3 8 	   /*    Numpad * -> \ PETSCII    */
+
+
+# Multiply (*)
+bracketright 5 7 0
+braceright 8 1 1
+dead_perispomeni 0 5 1
+asciitilde       0 5 1
+
+# At (@)
+bracketleft 8 1 0
+braceleft 5 4 1
+
+
+###### Letter Keys  ######
+# Right PETSCII with any Shift Key.
+# Left PETSCII with Commodore Key.
+# PETSCII are remapped to match C64 Keyboard. 
+
+# Q Key
+q  2 0 0
+Q  2 0 1
+F10 7 7 1
+
+# W Key
+w  3 0 0
+W  3 0 1
+
+
+# E Key
+e  2 1 0
+E  2 1 1
+
+
+# R Key
+r 3 1 0
+R 3 1 1
+
+# T Key
+t   2 2 0
+T   2 2 1
+
+
+# Y Key
+y   3 2 0
+Y   3 2 1
+
+
+# U Key
+u   2 3 0
+U   2 3 1
+
+
+# I KEY
+i   3 3 0
+I   3 3 1
+
+
+# O Key
+o   2 4 0
+O   2 4 1
+
+
+#P Key
+p 3 4 0
+P 3 4 1
+
+
+# A Key
+a   4 0 0
+A   4 0 1
+
+
+# S Key
+s   5 0 0
+S   5 0 1
+
+
+
+# D Key 
+d 	4 1 8
+D 	4 1 1
+
+
+# F Key
+f   5 1 0
+F   5 1 1
+
+
+# G Key
+g   4 2 0
+G   4 2 1
+
+
+# H Key
+h 5 2 0
+H 5 2 1
+
+
+# J Key
+j   4 3 0
+J   4 3 1
+
+
+# K Key
+k       5 3 0
+K       5 3 1
+
+
+# L Key
+l         4 4 0
+L         4 4 1
+
+
+# Z Key
+z  6 0 0
+Z  6 0 1
+F11 8 7 1
+
+
+# X Key
+x    7 0 0
+X    7 0 1
+
+
+# C Key
+c         6 1 0
+C         6 1 1
+
+
+# V Key
+v         7 1 0
+V         7 1 1
+
+
+# B Key
+b   6 2 0
+B   6 2 1
+
+
+# N Key
+n     7 2 0
+N     7 2 1
+Alt_L 5 7 1
+
+# M Key
+m     6 3 0
+M     6 3 1
+
+
+# joystick keymap A (port 1)
+KP_8 -1 7              /*     NumPad 8 -> UP           */
+KP_2 -1 2              /*     NumPad 2 -> DOWN         */
+KP_4 -1 4              /*     NumPad 4 -> LEFT         */
+KP_6 -1 5              /*     NumPad 6 -> RIGHT        */
+KP_0 -1 0              /*     NumPad 0 -> FIRE         */
+
+# joystick Keymap B (port 2)
+KP_7 -2 7              /*     NumPad 7 -> UP           */
+KP_3 -2 2              /*     NumPad 3 -> DOWN         */
+KP_1 -2 4              /*     NumPad 1 -> LEFT         */
+KP_9 -2 5              /*     NumPad 9 -> RIGHT        */
+KP_Decimal -2 0        /*     NumPad . -> FIRE         */
