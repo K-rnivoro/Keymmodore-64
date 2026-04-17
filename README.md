@@ -3,7 +3,7 @@
 
 ## An interface for converting a Commodore-64 Keyboard to USB, compatible with any Operative System and 8-bit Commodore Computers Emulators.
 
-The Keymmodore-64 project is a hardware interface to convert keyboards and joysticks of Commodore C-64 computer, in a USB (HID) device, able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too.
+The Keymmodore-64 project is a hardware interface to convert keyboards and joysticks of Commodore C-64 computer, in a USB (HID) device, able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too. You can even install it without removing the C-64 motherboard.
 
 It's also part of my other project [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) in case you're thinking matching it with a Raspberry Pi 3.
 
@@ -304,7 +304,7 @@ I've created some 3D frames if you want to install the Pico board inside a C-64 
 There are two alternatives: 
 
 - A frame for the bottom part of the case, if you plan to use joystick ports. It can be screwed to the right side of your bottom part of the case. It uses the same screw holes than the original PCB.
-- A holder for the top part of the case. This one is smaller and you can attach it with any of the screws holding the keyboard. This one is better if you do't plan to use Joysticks ports. Also, you can mirror it, depending on what side you want the USB connector.
+- A holder for the top part of the case. This one is smaller and you can attach it with any of the screws holding the keyboard. This one is better if you do't plan to use Joysticks ports, or you prefer not to remove your C-64 motherboard. Also, you can mirror it, depending on what side you want the USB connector.
 
 For a "full" set of frames using a Raspberry Pi, check my other project  [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)).
 
