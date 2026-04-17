@@ -1,4 +1,4 @@
-<img width="2770" height="294" alt="keymmodore small" src="https://github.com/user-attachments/assets/fc9ce2ca-9c9e-49d0-baaf-6c298e0287d5" />
+<img width="2078" height="220" alt="keymmodore small" src="https://github.com/user-attachments/assets/1eae49c1-e42d-4150-83d0-da763f387b69" />
 
 
 
