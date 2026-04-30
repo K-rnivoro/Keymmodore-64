@@ -23,7 +23,7 @@ In order to Keymmodore-64 to work correctly, you need a few things:
 - Set your Operative System Keyboard layout to "US" or "US International". Do not use any other layout. "UK",  "Spanish" or any other regional layout won't work properly.
 - Download and use the .vkm files for your emulators. Set them as "User Positional" for each computer to be emulated. This make Emulation Modes work correctly with the Emulators. The default .vkm files do not work (being symbolic or positional).
 - There is one VKM set of files for BMC64, and two sets for VICE, due to VICE having SDL2 and GTK3 builds, although GTK3 is preferred as explained below.
-- If you plug your Pi to the USB host with the Shift-Lock key pressed (or any Shift Key), the keyboard won't be recognized by the host. Check that key before pluging.
+- If you plug your Pi Pico to the USB host with the Shift-Lock key pressed (or any Shift Key), the keyboard won't be recognized by the host. Check that key before pluging.
 
 ### "The Matrix Reloaded"
 
