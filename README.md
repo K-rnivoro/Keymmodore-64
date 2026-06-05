@@ -173,8 +173,8 @@ As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (p
 
 The changes are:
 
-- The original C-64 cursor keys work as ↓ (Down) and → (Right). SHIFT won’t invert the direccion of these two, as it does in the C-64.
-- ↑ (Arrow Up) and RESTORE work as ↑ (Up) and ← (Left) respectively.
+- The original C-64 Cursor keys work as ↓ (Cursor Down) and → (Cursor Right). SHIFT won’t invert the direccion of these two, as it does in the C-64.
+- ↑ (Arrow Up) and RESTORE work as ↑ (Cursor Up) and ← (Cursos Left) respectively.
 - F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
 
 Press C= and CONTROL keys to switch back to PC Compatible Mode.
@@ -269,7 +269,8 @@ This keyboard has some particular symbolic only keys like Brackets ([ ]), minus 
 Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position as seen in the following diagram: 
 
 
-<img width="1814" height="493" alt="Keymmodore C-128 Mode" src="https://github.com/user-attachments/assets/25c32507-1e1a-4370-8eca-047cc9db56b3" />
+<img width="1814" height="491" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/5acd71c0-3d59-4938-9c58-a55c3be4d378" />
+
 
 
 ### EXCLUSIVE KEYS
