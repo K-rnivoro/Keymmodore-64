@@ -299,15 +299,15 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 ## Boot (or switch manually) to a specific mode.
 
 As explained before, there are three pins (GP18, 19 and 20) reserved for control. You can use them to boot to a specific Computer compatible mode, or switch on the fly from one Mode to another without using the shortcuts.
-Just connect the pins to 3.3V or GND pins of the Pico, according this table.
+Just connect the pins to 3.3V or GND pins of the Pico, according this table. Thanks to [x48x4b](https://github.com/x48x4b) for the suggestion of using these feature without a Pi 3!!
 
 | Mode            | GP18 | GP20 | GP19 |
 |-----------------|------|------|------|
 | PC Mode         | 0    | 0    | 0    |
 | VIC20/C64/Plus4 | 0    | 0    | 1    |
 | C128            | 0    | 1    | 0    |
-| PET Business    | 0    | 1    | 1    |
-| PET Graphics    | 1    | 0    | 0    |
+| PET Graphics    | 0    | 1    | 1    |
+| PET Business    | 1    | 0    | 0    |
 
 
 ## How to test your Keyboard
