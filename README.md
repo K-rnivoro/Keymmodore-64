@@ -176,7 +176,8 @@ As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (p
 The changes are:
 
 - The original C-64 Cursor keys work as ↓ (Cursor Down) and → (Cursor Right). SHIFT won’t invert the direccion of these two, as it does in the C-64.
-- ↑ (Arrow Up) and RESTORE work as ↑ (Cursor Up) and ← (Cursos Left) respectively.
+- ↑ (Arrow Up) and RESTORE work as ↑ (Cursor Up) and ← (Cursor Left) respectively.
+- ← (Arrow Left) works as ESC.
 - F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
 
 Press C= and CONTROL keys to switch back to PC Compatible Mode.
@@ -326,7 +327,7 @@ I've created some 3D frames if you want to install the Pico board inside a C-64 
 There are two alternatives: 
 
 - A frame for the bottom part of the case, if you plan to use joystick ports. It can be screwed to the right side of your bottom part of the case. It uses the same screw holes than the original PCB.
-- A holder for the top part of the case. This one is smaller and you can attach it with any of the screws holding the keyboard. This one is better if you do't plan to use Joysticks ports, or you prefer not to remove your C-64 motherboard. Also, you can mirror it, depending on what side you want the USB connector.
+- A holder for the top part of the case. This one is smaller and you can attach it with any of the screws holding the keyboard. This one is better if you don't plan to use Joysticks ports, or you prefer not to remove your C-64 motherboard. Also you can mirror it, depending on what side you want the USB connector.
 
 For a "full" set of frames using a Raspberry Pi, check my other project  [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64)).
 
