@@ -175,7 +175,7 @@ As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (p
 
 The changes are:
 
-- The original C-64 Cursor keys work as ↓ (Cursor Down) and → (Cursor Right). SHIFT won’t invert the direccion of these two, as it does in the C-64.
+- The original C-64 Cursor keys work as ↓ (Cursor Down) and → (Cursor Right). Keep in mind SHIFT won’t invert the direccion of these two like it does in C-64.
 - ↑ (Arrow Up) and RESTORE work as ↑ (Cursor Up) and ← (Cursor Left) respectively.
 - ← (Arrow Left) works as ESC.
 - F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
