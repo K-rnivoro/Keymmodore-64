@@ -4,7 +4,7 @@
 
 ## A Commodore 64 keyboard-to-USB interface, compatible with all operating systems and 8-bit Commodore emulators.
 
-The Keymmodore-64 project is a hardware interface to convert keyboards and joysticks of Commodore C-64 computer, in a USB (HID) device, able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too. You can even install it without removing the C-64 motherboard.
+The Keymmodore-64 project is a hardware interface to convert keyboards and joysticks of Commodore C-64 computer, in a USB (HID) device, able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too. You can even install it without removing the motherboard from your C-64 case.
 
 It's also part of my other project [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) in case you're thinking matching it with a Raspberry Pi 3.
 
