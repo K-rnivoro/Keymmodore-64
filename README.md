@@ -245,7 +245,8 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 ### SYMBOLS AND PETSCII GRAPHICS
 
-As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol. But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, you can use the C= Key besides any Shift key), so by pressing C=/Shift/colon you actually have a "Shifted [" ,  In order to access those keys, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want.
+As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol.
+But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key (or "shifted") just press C= and the key with the symbol you want. Following the example, by pressing C=/Shift/colon you actually have a "Shifted [".
 
 Regarding PETSCII graphics, despite PET had just one PETSCII for each key, Keymmodore-64 keeps the C-64 character set, being able to «merge» again two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
@@ -262,7 +263,7 @@ This second mode allows to emulate the so called «Business» keyboard (the one 
 
 You can´t switch from PC Mode to PET Business Mode directly, first you have to switch to Graphics Mode, then to Business Mode (Only four Function keys and five thing to do, sorry...)
 
-This keyboard has some particular symbolic only keys like Brackets ([ ]), minus and equal (- =), asterisk and colon (: *). It's weird like the Graphics keyboard, but not that weird.
+This keyboard has some particular symbolic only keys like Brackets ([ ]), minus and equal (- =), colon and asterisk (: *). It's weird like the Graphics keyboard, but not that weird.
 
 <img width="1024" height="287" alt="image" src="https://github.com/user-attachments/assets/148a0fb9-7d53-4e0f-9466-30efb323b4fb" />
 
@@ -283,14 +284,18 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 - F5 key works as REPEAT.
 - F7 key have no function.
 
-### NUMERIC PAD AND BRACKET KEYS
+### SYMBOL KEYS
 
-Keymmodore-64 implements a layer with the C= key for those special keys. You can see in green the keys that change its function if you keep C= key pressed.
+You can access those keys in the same way C64 does, no need to worry about that weird layout, like colon and asterisk in the same key.     
+
+### NUMERIC PAD AND SHIFTED BRACKET KEYS
+
+PET Business Keyboard had two set of number keys, one in the first row and a numpad. In order to have both sets, Keymmodore-64 implements a layer with the C= key for those keys. You can see in yellow the keys that change it's function if you keep C= key pressed.
 
 - 1 to 0 keys, correspond to Numpad keys. So for example pressing C= and 1 key, is actually Numpad´s 1 key, not the regular 1 key.
-- \>/. key is mapped to Numpad´s Decimal key
-- \[/: and ]/; keys correspond to those two particular "one-symbol-only" keys: Open Bracket and Close Bracket respectively.
-   
+- \>/. key is mapped to Numpad´s Decimal key.
+- \[/: and ]/; keys correspond to left bracket and right bracket respectively too, so in case you need those brackets shifted, just press C= AND Shift before pressing the bracket keys.
+
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
 
