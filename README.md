@@ -247,7 +247,7 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol.
 
-But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key just press C=, Shift, and the key with the symbol you want. Following the example, by pressing C=/Shift/colon you actually have a "Shifted Left Bracket".
+But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key just press C=, Shift, and the key with the symbol you want. Following the example, by pressing C=/Shift/colon you actually have a "Shifted Left Bracket", which actually outputs a PETSCII graphic character, unless it has a different function if a program is running.
 
 ### PETSCII GRAPHICS
 
