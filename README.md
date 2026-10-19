@@ -243,13 +243,15 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 - C= does not exist in PET Graphics Keyboard, however we will use it to access PETSCII graphics set as explained below.
 - Function Keys (F1 to F8) do not exist in PET Graphics Keyboard, however F5 is used as explained below. 
 
-### SYMBOLS AND PETSCII GRAPHICS
+### SHIFTED SYMBOLS
 
 As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol.
 
 But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key just press C=, Shift, and the key with the symbol you want. Following the example, by pressing C=/Shift/colon you actually have a "Shifted Left Bracket".
 
-Regarding PETSCII graphics, despite PET had just one PETSCII for each key, Keymmodore-64 keeps the C-64 character set, being able to «merge» again two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
+### PETSCII GRAPHICS
+
+Regarding PETSCII graphics, despite PET had just one for each key, Keymmodore-64 keeps the C-64 character set, being able to «merge» again two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
 Joining both features, in the diagram above you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches the layout of the C-64 keyboard.
 
