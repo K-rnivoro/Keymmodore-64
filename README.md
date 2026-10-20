@@ -234,7 +234,7 @@ Look how weird it is:
 In this Mode, the layout of your C-64 keyboard will be the following:
 
 
-<img width="1816" height="490" alt="Keymmodore PET Business Mode (2)" src="https://github.com/user-attachments/assets/0d88e219-e556-4432-b7b5-cd4d5a63e89c" />
+<img width="1820" height="495" alt="Keymmodore PET Graphic Mode " src="https://github.com/user-attachments/assets/0bfcb5d7-096d-4c27-9c16-ff743373df19" />
 
 
 
