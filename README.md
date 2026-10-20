@@ -233,7 +233,9 @@ Look how weird it is:
 
 In this Mode, the layout of your C-64 keyboard will be the following:
 
-<img width="1820" height="495" alt="Keymmodore PET Graphics Mode" src="https://github.com/user-attachments/assets/4d62dd64-3aa4-428d-ba73-fe4f52daa86d" />
+
+<img width="1813" height="485" alt="Keymmodore PET Graphic Mode " src="https://github.com/user-attachments/assets/6affbd45-baab-4f7f-a832-d7a90dc3dae7" />
+
 
 ### REGULAR PET GRAPHICS KEYS
 
@@ -247,7 +249,7 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol.
 
-But there is more: Imagine you need to press Shift AND Left Bracket ([). For that, the C= Key is used a FUNCTION or Modifier Key. So, for symbols in the upper part of the key just press C=, Shift, and the key with the symbol you want. Following the example, by pressing C=/Shift/colon you actually have a "Shifted Left Bracket", which actually outputs a PETSCII graphic character, unless it has a different function if a program is running.
+But there is more: Imagine you use a program where shifted keys have a special function other than PETSCII and you need to press Shift AND Exclamation Mark (!). For that, the C= Key is used as a FUNCTION or Modifier Key. So, for symbols in the upper part of the key you can also press C= instead of Shift. However if you combine C= with Shift, you have a "Shited symbol". Following the example, by pressing C=/Shift/1 you actually have a "Shifted Exclamation Mark" (which actually outputs a PETSCII graphic character in a regular cursor).
 
 ### PETSCII GRAPHICS
 
