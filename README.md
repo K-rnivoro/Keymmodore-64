@@ -234,7 +234,8 @@ Look how weird it is:
 In this Mode, the layout of your C-64 keyboard will be the following:
 
 
-<img width="1813" height="485" alt="Keymmodore PET Graphic Mode " src="https://github.com/user-attachments/assets/6affbd45-baab-4f7f-a832-d7a90dc3dae7" />
+<img width="1816" height="490" alt="Keymmodore PET Business Mode (2)" src="https://github.com/user-attachments/assets/0d88e219-e556-4432-b7b5-cd4d5a63e89c" />
+
 
 
 ### REGULAR PET GRAPHICS KEYS
@@ -255,7 +256,7 @@ But there is more: Imagine you use a program where shifted keys have a special f
 
 Regarding PETSCII graphics, despite PET had just one for each key, Keymmodore-64 keeps the C-64 character set, being able to «merge» again two PETSCII graphics in a single key, with the same layout than the C-64. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
-Joining both features, in the diagram above you can see in green the functions with C= key, and in yellow the function with any of the two SHIFT, which matches the layout of the C-64 keyboard.
+In the diagram above you can see in yellow the corresponding PETSCII with C= key, and in green with any of the two SHIFT keys, matching the layout of the C-64 keyboard.
 
 ### Switching to PET Business Mode or PC Mode
 
