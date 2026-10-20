@@ -275,7 +275,8 @@ This keyboard has some particular symbolic only keys like Brackets ([ ]), minus 
 Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, although some keys change its position as seen in the following diagram: 
 
 
-<img width="1814" height="491" alt="Keymmodore PET Business Mode" src="https://github.com/user-attachments/assets/5acd71c0-3d59-4938-9c58-a55c3be4d378" />
+
+<img width="1816" height="490" alt="Keymmodore PET Business Mode (2)" src="https://github.com/user-attachments/assets/ee4f14d1-eaf7-4e63-abbb-dcdac9da8764" />
 
 
 
@@ -291,7 +292,7 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 
 ### SYMBOL KEYS
 
-You can access those keys in the same way C64 does, no need to worry about that weird layout, like colon and asterisk in the same key.     
+You can access those keys in the same way C64 does, no need to worry about that weird layout, like colon and asterisk in the same key, or brackets only keys.     
 
 ### NUMERIC PAD AND SHIFTED BRACKET KEYS
 
