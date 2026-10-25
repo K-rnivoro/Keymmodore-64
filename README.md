@@ -316,8 +316,8 @@ Just connect the pins to 3.3V or GND pins of the Pico, according this table. Tec
 | PC Mode         | 0    | 0    | 0    |
 | VIC20/C64/Plus4 | 0    | 0    | 1    |
 | C128            | 0    | 1    | 0    |
-| PET Graphics    | 0    | 1    | 1    |
-| PET Business    | 1    | 0    | 0    |
+| PET Business    | 0    | 1    | 1    |
+| PET Graphics    | 1    | 0    | 0    |
 
 
 Thanks to [x48x4b](https://github.com/x48x4b) for the suggestion of using these feature without a Pi 3!!
