@@ -164,11 +164,14 @@ As explained before, pressing C= Key and F1, the interfase switches to this comp
 
 In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. The only added functionality is pressing C= and CONTROL goes back to PC Compatible Mode, so you can switch between your Emulator and Operative System.
 
-### COMMODORE PLUS/4 (or any other C-264 Model) Compatible Mode.
+### COMMODORE PLUS/4, C-16, or any other C-264 Model Compatible Mode.
 
 ![Plus4 Keyboard](https://github.com/user-attachments/assets/4e62082b-f0dd-448a-a269-8527adb85d9f)
 
-While emulating a Plus/4 or similar machine, the C-64 keyboard will behave like a C-16 keyboard. With the intention to make it intuitive, instead of keeping the original position of keys of a C-16 keyboard, I’ve changed the position of some keys to match the original C-64 layout.
+<img width="1737" height="467" alt="C16 Keyboard(1)" src="https://github.com/user-attachments/assets/12963ad4-af63-4cf3-bc8f-483960fcce24" />
+
+
+While emulating a C-264 family computer, the C-64 keyboard behaves like a C-16 keyboard, but symbol keys matches the position of the original C-64 layout.
 
 <img width="1811" height="489" alt="Keymmodore Plus 4 Mode" src="https://github.com/user-attachments/assets/58adbf33-205b-4bb2-b15c-fa52d7a85fee" />
 
@@ -176,8 +179,9 @@ As you can see, position of – (minus), * (asterisk), + (add), = (equal), £ (p
 
 The changes are:
 
-- The original C-64 Cursor keys work as ↓ (Cursor Down) and → (Cursor Right). Keep in mind SHIFT won’t invert the direccion of these two like it does in C-64.
-- ↑ (Arrow Up) and RESTORE work as ↑ (Cursor Up) and ← (Cursor Left) respectively.
+- The original C-64 Cursor keys work only as ↓ (Cursor Down) and → (Cursor Right). Keep in mind SHIFT won’t invert the direccion of these two like it does in C-64.
+- ↑ (Arrow Up) works as ↑ (Cursor Up).
+- RESTORE works as ← (Cursor Left).
 - ← (Arrow Left) works as ESC.
 - F1, F3, F5 and F7 work as F1, F2, F3 and HELP respectively, including switching to F4, F5, F6 and F7  if SHIFT is pressed.
 
