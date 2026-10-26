@@ -251,13 +251,13 @@ In this Mode, the layout of your C-64 keyboard will be the following:
 
 ### SHIFTED SYMBOLS
 
-As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access them in the same way than the C-64, using Shift with the upper symbol.
+As mentioned, every symbol had it's own key. However Keymmodore-64 "merge" them again, so you can access symbols in the same way than the C-64, using Shift for the upper symbols.
 
 But there is more: Imagine you use a program where shifted keys have a special function other than PETSCII and you need to press Shift AND Exclamation Mark (!). For that, the C= Key is used as a FUNCTION or Modifier Key. So, for symbols in the upper part of the key you can also press C= instead of Shift. However if you combine C= with Shift, you have a "Shifted symbol". Following the example, by pressing C=/Shift/1 you actually have a "Shifted Exclamation Mark" (which actually outputs a PETSCII graphic character in a regular cursor).
 
 ### PETSCII GRAPHICS
 
-Regarding PETSCII graphics, despite PET had just one for each key, however the graphic character set is the same than C-64, despite having two graphics per key. Keymmodore-64 is able to «merge» them again, with two PETSCII graphics in a single key, matching C-64 layout. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
+Regarding PETSCII graphics, although PET had just one for each key, the graphic set is the same than C-64 despite having two graphics per key. Keymmodore-64 is able to «merge» them again, with two PETSCII graphics in a single key, matching C-64 layout. Therefore, you can access both in the usual way: The left side ones with the C= key, and the right side ones with any SHIFT key. This also works for the π symbol of the Up Arrow Key (↑).
 
 In the diagram above you can see in yellow the corresponding PETSCII with C= key, and in green with any of the two SHIFT keys, matching the layout of the C-64 keyboard.
 
