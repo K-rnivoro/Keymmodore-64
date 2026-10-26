@@ -1,10 +1,13 @@
 <img width="2078" height="220" alt="keymmodore small" src="https://github.com/user-attachments/assets/1eae49c1-e42d-4150-83d0-da763f387b69" />
 
 
+## A Note about new things:
+
+Due to BMC64 Emulator being recently [updated](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-led), some minor changes have been made in order to keep coherence between BMC64 and Pimmodore-64. That also affects Keymmodore-64 with the goal of having just one Pico firmware for both projects (actually two, but depending RGB LED polarity only). Functionality keeps the same. Changes are related to color codes of the RGB LED only: Now white is for PC Mode, green for VIC20.
 
 ## A Commodore 64 keyboard-to-USB interface, compatible with all operating systems and 8-bit Commodore emulators.
 
-The Keymmodore-64 project is a hardware interface to convert keyboards and joysticks of Commodore C-64 computer, in a USB (HID) device, able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too. You can even install it without removing the motherboard from your C-64 case.
+The Keymmodore-64 project is a hardware interface to convert Commodore-64 keyboard and joysticks, in a USB Human Interface Device (HID), able to be connected to any "Host" computer or device, like: PC (Windows/Linux), Raspberry Pi, Mac, or even Android. Therefore, the keyboard works like any other keyboard, optionally you can connect old Atari-like joysticks and their inputs would be translated to keystrokes too. You can even install it without removing the motherboard from your C-64 case.
 
 It's also part of my other project [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) in case you're thinking matching it with a Raspberry Pi 3.
 
@@ -73,7 +76,7 @@ Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it alon
 - F1: Commodore-64, VIC-20 and Plus/4 Compatible Mode.
 - F3: Commodore-128 Compatible Mode.
 - F5: PET Graphics Keyboard Compatible Mode.
-- F5 (again, from PET Graphics): PET Business Keyboard Compatible Mode.
+- F5 (from PET Graphics, press it again): PET Business Keyboard Compatible Mode.
 - CONTROL: Back to PC Compatible Mode.
 - F7: This key is reserved for the BMC64 emulator Menu, when used as Pimmodore-64.
 
@@ -285,7 +288,6 @@ Mapping the Business keyboard to the C-64 keyboard is pretty straightforward, al
 <img width="1816" height="490" alt="Keymmodore PET Business Mode (2)" src="https://github.com/user-attachments/assets/ee4f14d1-eaf7-4e63-abbb-dcdac9da8764" />
 
 
-
 ### EXCLUSIVE KEYS
 
 - CTRL key works as TAB.
@@ -314,17 +316,21 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 ## Boot (or switch manually) to a specific mode.
 
 As explained before, there are three pins (GP18, 19 and 20) reserved for control. You can use them to boot to a specific Computer compatible mode, or switch on the fly from one Mode to another without using the shortcuts.
-Just connect the pins to 3.3V or GND pins of the Pico, according this table. Technically the Pico has pull-down resistors so you have to connect only those to 3.3V, but just in case...
+Just connect the pins to 3.3V or GND pins of the Pico, according this table (technically the Pico has pull-down resistors so you only need to connect to 3.3V, but just in case...)
 
 
-| Mode            | GP18 | GP20 | GP19 |
-|-----------------|------|------|------|
-| PC Mode         | 0    | 0    | 0    |
-| VIC20/C64/Plus4 | 0    | 0    | 1    |
-| C128            | 0    | 1    | 0    |
-| PET Business    | 0    | 1    | 1    |
-| PET Graphics    | 1    | 0    | 0    |
+| Mode            | GP18 | GP20 | GP19 | LED Color |
+|-----------------|------|------|------|-----------|
+| PC Mode         | 0    | 0    | 0    |   White   |
+| C64/VIC20/Plus4 | 0    | 0    | 1    |    Red    |
+| C128            | 0    | 1    | 0    |   Blue    |
+| PET Business    | 0    | 1    | 1    |  Magenta  |
+| PET Graphics    | 1    | 0    | 0    |  Yellow   |
+| VIC-20 (*)      | 1    | 0    | 1    |   Green   | 
+| Plus/4 (*)      | 1    | 1    | 0    |   Cyan    |
 
+(*) These two modes are only for compatibility with BMC64 and they are not accessible from Keyboard shortcuts. They are actually irrelevant because they work exactly like C-64/VIC20/PLUS4 (Red) option, only the LED color changes.
+Keyboard layout in the firmware is actually the same for the three of them (C-64, VIC-20 and Plus/4), differences are in the .vkm files.
 
 Thanks to [x48x4b](https://github.com/x48x4b) for the suggestion of using these feature without a Pi 3!!
 
