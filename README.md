@@ -3,7 +3,7 @@
 
 ### Important Note regarding the new version:
 
-As of version 5.4.3, [BMC64](https://github.com/randyrossi/bmc64/releases) features native support for Pimmodore-64! In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both model of PET keyboard, making them more intuitive to use.
+As of version 5.4.3, [BMC64](https://github.com/randyrossi/bmc64/releases) features native support for Pimmodore-64! In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both models of PET keyboards, making them more intuitive to use.
 
 
 ## A Commodore 64 keyboard-to-USB interface, compatible with all operating systems and 8-bit Commodore emulators.
