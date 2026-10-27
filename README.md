@@ -1,7 +1,7 @@
 <img width="2078" height="220" alt="keymmodore small" src="https://github.com/user-attachments/assets/1eae49c1-e42d-4150-83d0-da763f387b69" />
 
 
-## A Note about new things:
+## A Note about new version:
 
 Due to BMC64 Emulator being recently [updated](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-led), some minor changes have been made in order to keep coherence between BMC64 and Pimmodore-64. That also affects Keymmodore-64 with the goal of having just one Pico firmware for both projects (actually two, but depending RGB LED polarity only). Functionality keeps the same. Changes are related to color codes of the RGB LED only: Now white is for PC Mode, green for VIC20.
 
