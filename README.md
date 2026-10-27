@@ -3,7 +3,7 @@
 
 ### Important Note regarding the new version:
 
-As of version 5.4.3, BMC64 features [native support](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) for Pimmodore-64! In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both model of PET keyboard, making them more intuitive to use.
+As of version 5.4.3, BMC64 features [native support](https://github.com/randyrossi/bmc64/releases) for Pimmodore-64! In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both model of PET keyboard, making them more intuitive to use.
 
 
 ## A Commodore 64 keyboard-to-USB interface, compatible with all operating systems and 8-bit Commodore emulators.
@@ -14,7 +14,7 @@ It's also part of my other project [Pimmodore-64](https://github.com/K-rnivoro/P
 
 In order to make a C-64 keyboard productive for a PC, Keymmodore-64 includes a lot of key combinations, like using the Commodore key as Function Key. This way, your C-64 Keyboard includes almost all keys you need for your everyday work.
 
-Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or the excellent Bare Metal Emulator for Raspberry Pi 3 [BMC64](https://accentual.com/bmc64/). With these modes, you can easily use your C-64 keyboard not even for emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards, always having 100% keys functionality.
+Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized for all 8 bit Commodore Computers emulators, like [VICE](https://vice-emu.sourceforge.io/) or the excellent Bare Metal Emulator for Raspberry Pi 3 [BMC64](https://github.com/randyrossi/bmc64). With these modes, you can easily use your C-64 keyboard not even for emulating a Commodore-64 or VIC-20, but also a Commodore-128, a Plus/4 (or C-16), and even PET Computers with Graphics or Business keyboards, always having 100% keys functionality.
 
 Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful [QMK Firmware](https://qmk.fm/), so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
