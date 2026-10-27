@@ -90,7 +90,7 @@ If you wired the RGB LED it will show you which is the active mode as described 
 - Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
 - Commodore-128 Compatible Mode: BLUE
 - PET Graphics Keyboard Compatible Mode: YELLOW
-- PET Business Keyboard Compatible Mode: PURPLE
+- PET Business Keyboard Compatible Mode: MAGENTA
 
 In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
 
