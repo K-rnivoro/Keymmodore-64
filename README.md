@@ -1,9 +1,9 @@
 <img width="2078" height="220" alt="keymmodore small" src="https://github.com/user-attachments/assets/1eae49c1-e42d-4150-83d0-da763f387b69" />
 
 
-### A Note about new version:
+### Important Note regarding the new version:
 
-Due to BMC64 Emulator being recently [updated](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-led), some minor changes have been made in order to keep coherence between BMC64 and Pimmodore-64. That also affects Keymmodore-64 with the goal of having just one firmware for both projects (actually two firmwares, depending RGB LED polarity only). Functionality keeps the same. Changes are related to color codes of the RGB LED only: Now white is for PC Mode, green for VIC20.
+Due to recent [updates](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-led) in the BMC64 Emulator, some minor adjustments have been made to maintain coherence between BMC64 and Pimmodore-64. That also affects Keymmodore-64 with the goal of keeping just one firmware version for both projects (actually two firmwares, depending RGB LED polarity only). The core functionality remains identical. The only changes relate to the RGB LED color codes: White now indicates PC Mode, and Green indicates VIC-20 Mode.
 
 ## A Commodore 64 keyboard-to-USB interface, compatible with all operating systems and 8-bit Commodore emulators.
 
