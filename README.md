@@ -37,7 +37,7 @@ The C-64 keyboard matrix is connected directly to the pins of the Pi Pico. Howev
 
 This is the schematics for connecting the C-64 keyboard and a RGB LED to the Pico (for common cathode RGB LED, just connect the common pin to any GND). This LED is not mandatory, however it's very useful giving you information about which mode is the keyboard working, remember there are 6 different modes!
 
-There are also three pins reserved for an implementation with a Raspberry Pi 3, as you can see in my [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64) project. However, you can use those pins to manually switch Keyboard Modes too, as explained later.
+There are also three pins reserved for when using BMC64 emulator to build a [Pimmodore-64](https://github.com/K-rnivoro/Pimmodore-64). Also if you want to be creative with switches, you can use those pins to manually switch Keyboard Modes too, as explained later.
 
 <img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/6ad6fff9-a5b4-494b-8b81-050176261a98" />
 
@@ -66,7 +66,7 @@ This is important if you plan to print the holder (explained below), or build a 
 
 ## How to switch to 8 bit Compatible Modes
 
-When Keymmodore-64 is powered from USB, the LED will go green, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, compatibles with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET Graphics, PET Business)
+When Keymmodore-64 is powered from USB, the LED will go white, letting you know it's in "PC Compatible Mode" (explained below). From there you can switch to other Modes, compatibles with different VICE Emulators (VIC-20/C-64, C-128. Plus/4, PET Graphics, PET Business)
 
 Commodore Key (C=) behaves like a Special Function (FN) key. So pressing it along with F1, F3, F5 or CONTROL key, the interface will switch to different Modes (actually keyboards layouts), depending what computer you want to emulate in the emulator: 
 
@@ -86,7 +86,7 @@ If you wired the RGB LED it will show you which is the active mode as described 
 
 ### RGB LED Color code
 
-- PC Compatible Mode: GREEN
+- PC Compatible Mode: WHITE
 - Commodore-64, VIC-20 and Plus/4 Compatible Mode: RED
 - Commodore-128 Compatible Mode: BLUE
 - PET Graphics Keyboard Compatible Mode: YELLOW
@@ -94,9 +94,9 @@ If you wired the RGB LED it will show you which is the active mode as described 
 
 In PC Compatible Mode and Commodore-128 Mode, while pressing the Right SHIFT (Modifier Key), the LED will light CYAN.
 
-In any Mode, while pressing the Commodore Key (C=) the LED will light WHITE.
+In any Mode, while pressing the Commodore Key (C=) the LED will turn off.
 
-## PC Compatible Mode
+## PC Compatible Mode (WHITE)
 
 In this Mode, the C-64 keyboard acts like a standard PC Keyboard, keeping the original layout as far as possible, but also remapping non-existent ones to modern functions. Considering the C-64 Keyboard has no Numeric KeyPad, nor complete set of Function Keys (F1 a F12), the paradigm is similar to “60%” Keyboards, using Special Function Keys (like Fn) allowing the same key having more than one function. In the following pic, the PC Mode layout is shown. This is the mode when you plug your keyboard. 
 
@@ -157,17 +157,17 @@ The RIGHT SHIFT besides being a regular Shift for most of the keys, works also a
 - ↓ (Cursor Down) and → (Cursor Right) keys invert their direction, working as Up (↑) y Left (←) respectively, as the top legend describe (in the same way C-64 does).
 - The F1, F3, F5 and F7 function keys work as F2, F4, F6 and F8, as the top legend describe (in the same way C-64 does).
 
-## Commodore-64, VIC-20 Compatible Mode.
+## Commodore-64, VIC-20 and Plus/4 Compatible Mode (RED).
 
 As explained before, pressing C= Key and F1, the interfase switches to this compatible Mode. Depending the computer being emulated in the emulator (and the right .vkm files), you will have the following layouts:
 
-### COMMODORE-64 AND VIC-20
+### COMMODORE-64 AND VIC-20 (RED).
 
 <img width="1813" height="497" alt="Keymmodore VIC20-C64 Mode" src="https://github.com/user-attachments/assets/108fe142-8f02-4523-9e6c-195f0823cd6d" />
 
 In this Mode, the keyboard work exactly as it was original conceived for C-64 or VIC-20, including all the symbols and legends of the keys. The only added functionality is pressing C= and CONTROL goes back to PC Compatible Mode, so you can switch between your Emulator and Operative System.
 
-### COMMODORE PLUS/4, C-16, or any other C-264 Model Compatible Mode.
+### COMMODORE PLUS/4, C-16 or C-116 (RED).
 
 ![Plus4 Keyboard](https://github.com/user-attachments/assets/4e62082b-f0dd-448a-a269-8527adb85d9f)
 
@@ -190,7 +190,7 @@ The changes are:
 
 Press C= and CONTROL keys to switch back to PC Compatible Mode.
 
-## Commodore-128 Compatible Mode.
+## Commodore-128 Compatible Mode (BLUE).
 
 Implementing C-128 Keyboard is a challenge due to having more keys than a C-64 keyboard. 
 
@@ -228,7 +228,7 @@ C-128 has double set of cursor keys: The regular two C-64 keys, and the exclusiv
 
 As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 
-## Commodore PET Graphics Keyboard Compatible Mode.
+## Commodore PET Graphics Keyboard Compatible Mode (YELLOW).
 
 Commodore PET has two different keyboards layout, so both need to be emulated separately.
 
@@ -271,7 +271,7 @@ Once in PET Graphics Mode, pressing C= and F5 keys again switch to PET Business 
 As usual, pressing C= and CONTROL switch back to PC Compatible Mode.
 
 
-## Commodore PET Business Keyboard Compatible Mode.
+## Commodore PET Business Keyboard Compatible Mode (MAGENTA).
 
 This second mode allows to emulate the so called «Business» keyboard (the one with upper and lower case letters) used by the later Commodore PET Series Computer.
 
