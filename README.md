@@ -316,12 +316,12 @@ As usual, C= and CONTROL keys switch back to PC Compatible Mode.
 ## Boot (or switch manually) to a specific mode.
 
 As explained before, there are three pins (GP18, 19 and 20) reserved for control. You can use them to boot to a specific Computer compatible mode, or switch on the fly from one Mode to another without using the shortcuts.
-Just connect the pins to 3.3V or GND pins of the Pico, according this table (technically the Pico has pull-down resistors so you only need to connect to 3.3V, but just in case...)
+Internal Pico resistor are configured as pull-ups, so you need to connect only the corresponding pins to GND, according this table, but if you want to be sure, connect also the corresponding pins to 3.3V (NEVER connect to 5V).
 
 
 | Mode            | GP18 | GP20 | GP19 | LED Color |
 |-----------------|------|------|------|-----------|
-| PC Mode         | 0    | 0    | 0    |   White   |
+| PC Mode         | 1    | 1    | 1    |   White   |
 | C64/VIC20/Plus4 | 0    | 0    | 1    |    Red    |
 | C128            | 0    | 1    | 0    |   Blue    |
 | PET Business    | 0    | 1    | 1    |  Magenta  |
