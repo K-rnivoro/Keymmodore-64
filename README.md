@@ -17,7 +17,7 @@ Besides the standard "PC Mode", Keymmodore-64 also includes five modes optimized
 
 Keymmodore-64 is developed using a Raspberry Pi Pico and the powerful [QMK Firmware](https://qmk.fm/), so it is not a simple .ino sketch, or a MicroPython code. It runs the same type of code than many gaming keyboards have, and you can modifiy it if you want.
 
-Just download the .zip file with the firmwares, and flash your Pi Pico with the .uf2 file, according your RGB LED polarity (common anode or cathode).
+Just download the firmware and flash your Pi Pico with the .uf2 file according your RGB LED polarity (common anode or cathode).
 
 ## Some important Notes:
 
