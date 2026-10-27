@@ -1,1 +1,1 @@
-Firmware for the Raspberry Pi Pico. Download according the RGB LED.
+Firmware for the Raspberry Pi Pico. Download according the RGB LED polarity.
